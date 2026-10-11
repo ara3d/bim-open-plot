@@ -1,0 +1,14 @@
+{
+  "slug": "room-adjacency-network",
+  "title": "Room adjacency network",
+  "role": "Space planner",
+  "decision": "Which rooms connect to which, through doors, openings, and stairs?",
+  "kinds": ["drawing", "chart"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment entities with their storey, joined to the boxes by STEP id" },
+    { "file": "/data/duplex/bounds.json", "provenance": "model", "note": "Duplex Apartment axis-aligned bounding boxes of spaces, doors, and stair flights, from ifc_bounds; every connection is inferred from them" },
+    { "file": "/data/duplex/parameters.json", "provenance": "model", "note": "Duplex Apartment room Number (tells the two units apart) and Area of each space" }
+  ],
+  "tags": ["adjacency", "network", "floor-plan", "space-planning"]
+}
