@@ -3,7 +3,7 @@
 
 import type { Row } from '../../src/chart';
 import type { DemoManifest } from '../../src/manifest';
-import { flowDemo } from '../flow-element-size-outliers/flow-demo';
+import { flowDemo } from '../../src/flow-demo';
 import raw from './demo.json';
 
 export const demo = flowDemo(raw as DemoManifest, 'viz-progress-s-curve', (rows: readonly Row[]): string => {

@@ -10,12 +10,12 @@
 // because the builder that mirrored the graphs could edit flow-* folders alone.
 
 import type { TopLevelSpec } from 'vega-lite';
-import type { Demo, HeadlessView } from '../../src/demo';
-import { dataUrl, resolveDataPath } from '../../src/demo';
-import { mountDemoPage } from '../../src/page';
-import { renderVegaLite, vegaLiteToSvg, type Row } from '../../src/chart';
-import { loadJson, loadTable } from '../../src/data';
-import type { DemoManifest } from '../../src/manifest';
+import type { Demo, HeadlessView } from './demo';
+import { dataUrl, resolveDataPath } from './demo';
+import { mountDemoPage } from './page';
+import { renderVegaLite, vegaLiteToSvg, type Row } from './chart';
+import { loadJson, loadTable } from './data';
+import type { DemoManifest } from './manifest';
 
 /** The part of a BIM Open Flow graph document this page reads. */
 export interface FlowGraph {

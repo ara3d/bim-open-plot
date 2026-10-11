@@ -3,7 +3,7 @@
 
 import type { Row } from '../../src/chart';
 import type { DemoManifest } from '../../src/manifest';
-import { flowDemo, num, total } from '../flow-element-size-outliers/flow-demo';
+import { flowDemo, num, total } from '../../src/flow-demo';
 import raw from './demo.json';
 
 export const demo = flowDemo(raw as DemoManifest, 'viz-clash-matrix', (rows: readonly Row[]): string => {

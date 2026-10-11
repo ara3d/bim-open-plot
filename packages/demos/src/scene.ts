@@ -16,13 +16,32 @@ export const rgbOfHex = (hex: string): Rgb => {
   return [((n >> 16) & 255) / 255, ((n >> 8) & 255) / 255, (n & 255) / 255];
 };
 
-/** Object keys by the element's STEP id (the `sourceId` the BOS loader records), for one loaded model. */
-export const keysByStepId = (loaded: LoadedModel): Map<number, ObjectKey> => {
+/**
+ * Object keys by the element's STEP id (the `sourceId` the BOS loader
+ * records), for one loaded model. A federated model holds several source
+ * documents that each number their own entities, so a STEP id can name an
+ * object in each of them: the object from the document matching `document`
+ * wins, or, with no pattern, the one from the document whose title sorts
+ * first (Duplex_A, the architecture model, in the Duplex federation).
+ */
+export const keysByStepId = (loaded: LoadedModel, document?: RegExp): Map<number, ObjectKey> => {
+  const docs = loaded.documents;
+  const titleOf = (i: number): string => docs?.title[docs.ofObject[i] ?? -1] ?? '';
   const out = new Map<number, ObjectKey>();
-  for (const o of loaded.data.objects) {
+  const chosen = new Map<number, string>();
+  loaded.data.objects.forEach((o, i) => {
     const step = Number(o.sourceId);
-    if (Number.isFinite(step)) out.set(step, objectKey(o.ref));
-  }
+    if (!Number.isFinite(step)) return;
+    const title = titleOf(i);
+    const prev = chosen.get(step);
+    const better =
+      prev === undefined ||
+      (document ? document.test(title) && !document.test(prev) : title.localeCompare(prev) < 0);
+    if (better) {
+      out.set(step, objectKey(o.ref));
+      chosen.set(step, title);
+    }
+  });
   return out;
 };
 

@@ -3,7 +3,7 @@
 
 import type { Row } from '../../src/chart';
 import type { DemoManifest } from '../../src/manifest';
-import { flowDemo, num, pct, total } from '../flow-element-size-outliers/flow-demo';
+import { flowDemo, num, pct, total } from '../../src/flow-demo';
 import raw from './demo.json';
 
 export const demo = flowDemo(raw as DemoManifest, 'viz-model-composition', (rows: readonly Row[]): string => {

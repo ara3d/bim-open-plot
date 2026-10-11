@@ -3,7 +3,7 @@
 
 import type { Row } from '../../src/chart';
 import type { DemoManifest } from '../../src/manifest';
-import { flowDemo, num } from './flow-demo';
+import { flowDemo, num } from '../../src/flow-demo';
 import raw from './demo.json';
 
 export const demo = flowDemo(raw as DemoManifest, 'viz-element-size-outliers', (rows: readonly Row[]): string => {

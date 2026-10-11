@@ -17,6 +17,8 @@ export interface PlanRect {
   readonly label?: string;
   /** Hover text (an SVG <title>). */
   readonly title?: string;
+  /** The label's colour; by default dark text, or light text on a dark fill. */
+  readonly labelColor?: string;
 }
 
 export interface PlanLine {
@@ -55,6 +57,14 @@ export interface PlanOptions {
   readonly scaleBar?: boolean;
 }
 
+/** True for a hex fill too dark for dark text (relative luminance below 0.4). */
+const isDark = (fill: string): boolean => {
+  if (!/^#[0-9a-f]{6}$/i.test(fill)) return false;
+  const n = parseInt(fill.slice(1), 16);
+  const lum = (0.2126 * ((n >> 16) & 255) + 0.7152 * ((n >> 8) & 255) + 0.0722 * (n & 255)) / 255;
+  return lum < 0.4;
+};
+
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const fmt = (v: number) => (Number.isInteger(v) ? String(v) : v.toFixed(1));
 
@@ -73,7 +83,7 @@ export const planSvg = (rects: readonly PlanRect[], opts: PlanOptions = {}): str
   const minY = Math.min(...all.map((b) => Math.min(b[1]!, b[3]!))) - margin;
   const maxY = Math.max(...all.map((b) => Math.max(b[1]!, b[3]!))) + margin;
   const headerH = opts.title ? (opts.subtitle ? 44 : 28) : 0;
-  const legendH = opts.legend ? 36 : 0;
+  const legendH = opts.legend ? 44 : 0;
   const scale = width / (maxX - minX);
   const planH = (maxY - minY) * scale;
   const height = headerH + planH + legendH + (opts.scaleBar ? 24 : 0);
@@ -85,6 +95,7 @@ export const planSvg = (rects: readonly PlanRect[], opts: PlanOptions = {}): str
   if (opts.title) parts.push(`<text x="0" y="18" font-size="15" font-weight="600" fill="${tokens.text}">${esc(opts.title)}</text>`);
   if (opts.subtitle) parts.push(`<text x="0" y="36" font-size="12" fill="${tokens.dim}">${esc(opts.subtitle)}</text>`);
   for (const r of rects) {
+    const labelFill = r.labelColor ?? (isDark(r.fill) ? tokens.surface : tokens.text);
     const x = X(Math.min(r.x0, r.x1));
     const y = Y(Math.max(r.y0, r.y1));
     const w = Math.abs(r.x1 - r.x0) * scale;
@@ -92,7 +103,7 @@ export const planSvg = (rects: readonly PlanRect[], opts: PlanOptions = {}): str
     parts.push(
       `<g data-id="${esc(r.id)}"><rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${w.toFixed(1)}" height="${h.toFixed(1)}" fill="${r.fill}" stroke="${r.stroke ?? tokens.border}" stroke-width="${r.strokeWidth ?? 1}" opacity="${r.opacity ?? 1}">${r.title ? `<title>${esc(r.title)}</title>` : ''}</rect>` +
         (r.label && w > 24 && h > 14
-          ? `<text x="${(x + w / 2).toFixed(1)}" y="${(y + h / 2 + 4).toFixed(1)}" font-size="11" text-anchor="middle" fill="${tokens.text}" pointer-events="none">${esc(r.label)}</text>`
+          ? `<text x="${(x + w / 2).toFixed(1)}" y="${(y + h / 2 + 4).toFixed(1)}" font-size="11" text-anchor="middle" fill="${labelFill}" pointer-events="none">${esc(r.label)}</text>`
           : '') +
         `</g>`,
     );

@@ -1,0 +1,56 @@
+# Publishes the demo page (packages/demos) to GitHub Pages on every push to
+# main. The demos resolve @bim-open-viewer/* to the pinned viewer checkout
+# under deps/, so that checkout is installed and its core package built
+# first. Pages must be switched on once in the repository settings:
+# Settings, Pages, Source: GitHub Actions.
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time; a newer push replaces a queued one but never cancels a running one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch dependencies listed in deps.json
+        run: node deps.mjs
+      - name: Install the viewer and build its core package
+        run: npm ci && npm run build:gratify && npm run build -w @bim-open-viewer/core
+        working-directory: deps/bim-open-viewer
+      - run: npm ci
+      - name: Test every demo headlessly
+        run: npm test -w @bim-open-plot/demos
+      - name: Build the demo site into packages/demos/dist/
+        run: npm run demos:index && npm run demos:build
+        env:
+          PLOT_BASE: /bim-open-plot/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: packages/demos/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

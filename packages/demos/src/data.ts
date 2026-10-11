@@ -6,7 +6,9 @@ import type { Row } from './chart';
 
 /** Text by URL (browser) or path (Node). */
 export const loadText = async (url: string): Promise<string> => {
-  if (typeof fetch === 'function' && /^(https?:)?\//.test(url) && typeof window !== 'undefined') {
+  // In a browser every path is fetched: a site-absolute one (/data/...), a demo's own
+  // relative one (./data/...), which resolves against the demo page, or a full URL.
+  if (typeof window !== 'undefined' && typeof fetch === 'function') {
     const res = await fetch(url);
     if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
     return res.text();
