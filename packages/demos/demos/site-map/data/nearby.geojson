@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "P101",
+      "properties": {
+        "name": "Wabash Avenue apartments",
+        "status": "design",
+        "floorArea": 4200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.635781,
+          41.877993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P102",
+      "properties": {
+        "name": "Roosevelt Road clinic",
+        "status": "construction",
+        "floorArea": 2600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.644829,
+          41.872154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P103",
+      "properties": {
+        "name": "Dearborn Street townhouses",
+        "status": "handover",
+        "floorArea": 1850
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.63759,
+          41.86901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P104",
+      "properties": {
+        "name": "Printers Row infill",
+        "status": "construction",
+        "floorArea": 3100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.641813,
+          41.880239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P105",
+      "properties": {
+        "name": "State Street library branch",
+        "status": "design",
+        "floorArea": 1400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.630955,
+          41.875298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P106",
+      "properties": {
+        "name": "Polk Street duplex",
+        "status": "handover",
+        "floorArea": 620
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.647242,
+          41.877095
+        ]
+      }
+    }
+  ]
+}

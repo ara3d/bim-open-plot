@@ -1,0 +1,9 @@
+{
+  "refLatitude": [41, 52, 27, 840000],
+  "refLongitude": [-87, -38, -21, -839999],
+  "rotation": 0,
+  "rotationStated": false,
+  "provenance": "model",
+  "note": "typed from IfcSite in duplex.ifc; the BOS converter truncates it (toolkit defect)",
+  "source": "IfcSite RefLatitude and RefLongitude in duplex.ifc (degrees, minutes, seconds, millionths of a second); the file has no IfcMapConversion and no TrueNorth, so the rotation is unknown and taken as 0 (model +y = north)"
+}

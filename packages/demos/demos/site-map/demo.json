@@ -1,0 +1,15 @@
+{
+  "slug": "site-map",
+  "title": "Site map and nearby projects",
+  "role": "Owner",
+  "decision": "Where does the building sit, and what else of mine is around it?",
+  "kinds": ["map", "chart"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment entities with their storey, to find the Level 1 spaces" },
+    { "file": "/data/duplex/bounds.json", "provenance": "model", "note": "Duplex Apartment model box and space boxes, for the footprint and the room fills" },
+    { "file": "data/georeference.json", "provenance": "model", "note": "IfcSite RefLatitude and RefLongitude typed from IfcSite in duplex.ifc (the BOS converter truncates it, a toolkit defect); no IfcMapConversion or TrueNorth, so rotation 0 (north-up) is an assumption" },
+    { "file": "data/nearby.geojson", "provenance": "synthetic", "note": "Six invented projects of the same owner, placed 500 to 720 m from the IfcSite point in the Chicago South Loop, with invented names, a status of design, construction, or handover, and gross floor areas of 620 to 4,200 m² typical of urban residential, clinic, and library buildings" }
+  ],
+  "tags": ["map", "site", "portfolio", "geojson"]
+}
