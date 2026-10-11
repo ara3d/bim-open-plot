@@ -1,0 +1,23 @@
+{
+  "slug": "flow-construction-sequence",
+  "title": "Construction sequence (from the graph)",
+  "role": "Site superintendent",
+  "decision": "In what order do the floors and trades get built, and which week does each task finish?",
+  "kinds": [
+    "chart"
+  ],
+  "model": "duplex",
+  "data": [
+    {
+      "file": "data/figure.json",
+      "provenance": "synthetic",
+      "note": "Invented by bim.buildSequence over the Duplex Apartment's real element list: storeys bottom-up, trades Structure, Envelope, MEP, Finishes, 10-day tasks from 2027-01-04; no real programme; the output of toolkit graph viz-construction-sequence"
+    }
+  ],
+  "tags": [
+    "schedule",
+    "gantt",
+    "4d",
+    "flow-graph"
+  ]
+}

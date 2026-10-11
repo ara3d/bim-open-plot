@@ -1,0 +1,24 @@
+{
+  "slug": "flow-facade-orientation",
+  "title": "Facade area by compass sector",
+  "role": "Facade engineer",
+  "decision": "How much wall and glazing sits on each side of the building?",
+  "kinds": [
+    "chart"
+  ],
+  "model": "duplex",
+  "data": [
+    {
+      "file": "data/figure.json",
+      "provenance": "model",
+      "note": "Duplex Apartment external walls and windows, placed in compass sectors with face areas by bim.orientation; the output of toolkit graph viz-facade-orientation"
+    }
+  ],
+  "tags": [
+    "facade",
+    "orientation",
+    "polar",
+    "envelope",
+    "flow-graph"
+  ]
+}

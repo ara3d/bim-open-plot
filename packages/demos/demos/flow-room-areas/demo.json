@@ -1,0 +1,24 @@
+{
+  "slug": "flow-room-areas",
+  "title": "Room areas",
+  "role": "Space planner",
+  "decision": "How big is each room, and how much floor area does each room type take?",
+  "kinds": [
+    "chart"
+  ],
+  "model": "duplex",
+  "data": [
+    {
+      "file": "data/figure.json",
+      "provenance": "model",
+      "note": "Duplex Apartment IfcSpace areas (GSA BIM Area) with room types from bim.classifyRooms; the output of toolkit graph viz-room-areas"
+    }
+  ],
+  "tags": [
+    "area",
+    "rooms",
+    "histogram",
+    "space",
+    "flow-graph"
+  ]
+}

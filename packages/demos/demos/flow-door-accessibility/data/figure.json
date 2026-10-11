@@ -1,0 +1,98 @@
+[
+  {
+    "Bin": "750-800 mm",
+    "BinStart_mm": 750,
+    "BinEnd_mm": 800,
+    "Doors": 4,
+    "PassScore": 0,
+    "MinWidth_mm": 850
+  },
+  {
+    "Bin": "800-850 mm",
+    "BinStart_mm": 800,
+    "BinEnd_mm": 850,
+    "Doors": 2,
+    "PassScore": 0,
+    "MinWidth_mm": 850
+  },
+  {
+    "Bin": "850-900 mm",
+    "BinStart_mm": 850,
+    "BinEnd_mm": 900,
+    "Doors": 6,
+    "PassScore": 1,
+    "MinWidth_mm": 850
+  },
+  {
+    "Bin": "900-950 mm",
+    "BinStart_mm": 900,
+    "BinEnd_mm": 950,
+    "Doors": 0,
+    "PassScore": 1,
+    "MinWidth_mm": 850
+  },
+  {
+    "Bin": "950-1000 mm",
+    "BinStart_mm": 950,
+    "BinEnd_mm": 1000,
+    "Doors": 0,
+    "PassScore": 1,
+    "MinWidth_mm": 850
+  },
+  {
+    "Bin": "1000-1050 mm",
+    "BinStart_mm": 1000,
+    "BinEnd_mm": 1050,
+    "Doors": 0,
+    "PassScore": 1,
+    "MinWidth_mm": 850
+  },
+  {
+    "Bin": "1050-1100 mm",
+    "BinStart_mm": 1050,
+    "BinEnd_mm": 1100,
+    "Doors": 0,
+    "PassScore": 1,
+    "MinWidth_mm": 850
+  },
+  {
+    "Bin": "1100-1150 mm",
+    "BinStart_mm": 1100,
+    "BinEnd_mm": 1150,
+    "Doors": 0,
+    "PassScore": 1,
+    "MinWidth_mm": 850
+  },
+  {
+    "Bin": "1150-1200 mm",
+    "BinStart_mm": 1150,
+    "BinEnd_mm": 1200,
+    "Doors": 0,
+    "PassScore": 1,
+    "MinWidth_mm": 850
+  },
+  {
+    "Bin": "1200-1250 mm",
+    "BinStart_mm": 1200,
+    "BinEnd_mm": 1250,
+    "Doors": 0,
+    "PassScore": 1,
+    "MinWidth_mm": 850
+  },
+  {
+    "Bin": "1250-1300 mm",
+    "BinStart_mm": 1250,
+    "BinEnd_mm": 1300,
+    "Doors": 2,
+    "PassScore": 1,
+    "MinWidth_mm": 850
+  },
+  {
+    "Bin": "unknown",
+    "BinStart_mm": null,
+    "BinEnd_mm": null,
+    "Doors": 0,
+    "PassScore": null,
+    "MinWidth_mm": 850
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "slug": "flow-window-to-wall-ratio",
+  "title": "Window-to-wall ratio by facing",
+  "role": "Energy modeller",
+  "decision": "What share of each facade is glazing, against the 0.40 prescriptive ceiling?",
+  "kinds": [
+    "chart"
+  ],
+  "model": "duplex",
+  "data": [
+    {
+      "file": "data/figure.json",
+      "provenance": "model",
+      "note": "Duplex Apartment external wall and window face areas per facing, from bim.orientation; the output of toolkit graph viz-window-to-wall-ratio"
+    }
+  ],
+  "tags": [
+    "energy",
+    "facade",
+    "wwr",
+    "envelope",
+    "flow-graph"
+  ]
+}

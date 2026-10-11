@@ -1,0 +1,212 @@
+[
+  {
+    "EntityIndex": 275,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dlXrr",
+    "StepId": 514,
+    "Number": "A101",
+    "Name": "Foyer",
+    "Area": 17.936237,
+    "Storey": "Level 1",
+    "RoomType": "Circulation"
+  },
+  {
+    "EntityIndex": 3029,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dlXr2",
+    "StepId": 67,
+    "Number": "A102",
+    "Name": "Living Room",
+    "Area": 30.141645,
+    "Storey": "Level 1",
+    "RoomType": "Residential"
+  },
+  {
+    "EntityIndex": 3684,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dlXr$",
+    "StepId": 212,
+    "Number": "A103",
+    "Name": "Kitchen",
+    "Area": 13.897501,
+    "Storey": "Level 1",
+    "RoomType": "Kitchen"
+  },
+  {
+    "EntityIndex": 4259,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dlXru",
+    "StepId": 355,
+    "Number": "A104",
+    "Name": "Bathroom 1",
+    "Area": 3.997752,
+    "Storey": "Level 1",
+    "RoomType": "Sanitary"
+  },
+  {
+    "EntityIndex": 1179,
+    "GlobalId": "10mjSDZJj9gPS2PrQaxa3z",
+    "StepId": 3456,
+    "Number": "A105",
+    "Name": "Stair",
+    "Area": 4.9221725,
+    "Storey": "Level 1",
+    "RoomType": "Stair"
+  },
+  {
+    "EntityIndex": 351,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dlXri",
+    "StepId": 819,
+    "Number": "A201",
+    "Name": "Hallway",
+    "Area": 7.799955,
+    "Storey": "Level 2",
+    "RoomType": "Circulation"
+  },
+  {
+    "EntityIndex": 4267,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dlXrc",
+    "StepId": 1442,
+    "Number": "A202",
+    "Name": "Bedroom 1",
+    "Area": 26.119314,
+    "Storey": "Level 2",
+    "RoomType": "Residential"
+  },
+  {
+    "EntityIndex": 4275,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dlXrb",
+    "StepId": 1218,
+    "Number": "A203",
+    "Name": "Bedroom 2",
+    "Area": 26.177994,
+    "Storey": "Level 2",
+    "RoomType": "Residential"
+  },
+  {
+    "EntityIndex": 4250,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dlXre",
+    "StepId": 1059,
+    "Number": "A204",
+    "Name": "Bathroom 2",
+    "Area": 5.415819,
+    "Storey": "Level 2",
+    "RoomType": "Sanitary"
+  },
+  {
+    "EntityIndex": 1104,
+    "GlobalId": "2gRXFgjRn2HPE$YoDLX3FV",
+    "StepId": 3197,
+    "Number": "A205",
+    "Name": "Utility",
+    "Area": 1.7540486,
+    "Storey": "Level 2",
+    "RoomType": "Other"
+  },
+  {
+    "EntityIndex": 768,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dl_3Q",
+    "StepId": 2108,
+    "Number": "B101",
+    "Name": "Foyer",
+    "Area": 17.936237,
+    "Storey": "Level 1",
+    "RoomType": "Circulation"
+  },
+  {
+    "EntityIndex": 3013,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dl_CZ",
+    "StepId": 1627,
+    "Number": "B102",
+    "Name": "Living Room",
+    "Area": 30.141645,
+    "Storey": "Level 1",
+    "RoomType": "Residential"
+  },
+  {
+    "EntityIndex": 3697,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dl_3S",
+    "StepId": 1782,
+    "Number": "B103",
+    "Name": "Kitchen",
+    "Area": 13.897501,
+    "Storey": "Level 1",
+    "RoomType": "Kitchen"
+  },
+  {
+    "EntityIndex": 717,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dl_3P",
+    "StepId": 1928,
+    "Number": "B104",
+    "Name": "Bathroom 1",
+    "Area": 3.997752,
+    "Storey": "Level 1",
+    "RoomType": "Sanitary"
+  },
+  {
+    "EntityIndex": 1214,
+    "GlobalId": "10mjSDZJj9gPS2PrQaxa4o",
+    "StepId": 3586,
+    "Number": "B105",
+    "Name": "Room",
+    "Area": 4.9221725,
+    "Storey": "Level 1",
+    "RoomType": "Other"
+  },
+  {
+    "EntityIndex": 844,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dl_3G",
+    "StepId": 2412,
+    "Number": "B201",
+    "Name": "Hallway",
+    "Area": 7.799955,
+    "Storey": "Level 2",
+    "RoomType": "Circulation"
+  },
+  {
+    "EntityIndex": 4271,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dl_3A",
+    "StepId": 3013,
+    "Number": "B202",
+    "Name": "Bedroom 1",
+    "Area": 26.119314,
+    "Storey": "Level 2",
+    "RoomType": "Residential"
+  },
+  {
+    "EntityIndex": 4263,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dl_39",
+    "StepId": 2789,
+    "Number": "B203",
+    "Name": "Bedroom 2",
+    "Area": 26.177994,
+    "Storey": "Level 2",
+    "RoomType": "Residential"
+  },
+  {
+    "EntityIndex": 4239,
+    "GlobalId": "0BTBFw6f90Nfh9rP1dl_3C",
+    "StepId": 2637,
+    "Number": "B204",
+    "Name": "Bathroom 2",
+    "Area": 5.441473,
+    "Storey": "Level 2",
+    "RoomType": "Sanitary"
+  },
+  {
+    "EntityIndex": 1144,
+    "GlobalId": "2gRXFgjRn2HPE$YoDLX3FC",
+    "StepId": 3325,
+    "Number": "B205",
+    "Name": "Utility",
+    "Area": 1.728395,
+    "Storey": "Level 2",
+    "RoomType": "Other"
+  },
+  {
+    "EntityIndex": 1250,
+    "GlobalId": "0pNy6pOyf7JPmXRLgxs3sW",
+    "StepId": 3707,
+    "Number": "R301",
+    "Name": "Roof",
+    "Area": 145.7217,
+    "Storey": "Roof",
+    "RoomType": "Other"
+  }
+]

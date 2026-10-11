@@ -1,0 +1,110 @@
+[
+  {
+    "Week": 0,
+    "Installed": null,
+    "Finished": 0,
+    "Planned": 0,
+    "LaggedPlanned": null,
+    "Actual": 0,
+    "Synthetic": true
+  },
+  {
+    "Week": 1,
+    "Installed": null,
+    "Finished": 0,
+    "Planned": 0,
+    "LaggedPlanned": null,
+    "Actual": 0,
+    "Synthetic": true
+  },
+  {
+    "Week": 2,
+    "Installed": 7,
+    "Finished": 7,
+    "Planned": 7,
+    "LaggedPlanned": null,
+    "Actual": 0,
+    "Synthetic": true
+  },
+  {
+    "Week": 3,
+    "Installed": 29,
+    "Finished": 29,
+    "Planned": 36,
+    "LaggedPlanned": 0,
+    "Actual": 0,
+    "Synthetic": true
+  },
+  {
+    "Week": 4,
+    "Installed": null,
+    "Finished": 0,
+    "Planned": 36,
+    "LaggedPlanned": 0,
+    "Actual": 0,
+    "Synthetic": true
+  },
+  {
+    "Week": 5,
+    "Installed": 39,
+    "Finished": 39,
+    "Planned": 75,
+    "LaggedPlanned": 7,
+    "Actual": 7,
+    "Synthetic": true
+  },
+  {
+    "Week": 6,
+    "Installed": 100,
+    "Finished": 100,
+    "Planned": 175,
+    "LaggedPlanned": 36,
+    "Actual": 36,
+    "Synthetic": true
+  },
+  {
+    "Week": 7,
+    "Installed": null,
+    "Finished": 0,
+    "Planned": 175,
+    "LaggedPlanned": 36,
+    "Actual": 36,
+    "Synthetic": true
+  },
+  {
+    "Week": 8,
+    "Installed": 43,
+    "Finished": 43,
+    "Planned": 218,
+    "LaggedPlanned": 75,
+    "Actual": 75,
+    "Synthetic": true
+  },
+  {
+    "Week": 9,
+    "Installed": null,
+    "Finished": 0,
+    "Planned": 218,
+    "LaggedPlanned": 175,
+    "Actual": 175,
+    "Synthetic": true
+  },
+  {
+    "Week": 10,
+    "Installed": null,
+    "Finished": 0,
+    "Planned": 218,
+    "LaggedPlanned": 175,
+    "Actual": 175,
+    "Synthetic": true
+  },
+  {
+    "Week": 11,
+    "Installed": null,
+    "Finished": 0,
+    "Planned": 218,
+    "LaggedPlanned": 218,
+    "Actual": 218,
+    "Synthetic": true
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "Task": "T/FDN - Structure",
+    "Storey": "T/FDN",
+    "Trade": "Structure",
+    "Start": "2027-01-04",
+    "End": "2027-01-14",
+    "DurationDays": 10,
+    "FinishWeek": 2,
+    "ElementCount": 7,
+    "Synthetic": true
+  },
+  {
+    "Task": "Level 1 - Structure",
+    "Storey": "Level 1",
+    "Trade": "Structure",
+    "Start": "2027-01-14",
+    "End": "2027-01-24",
+    "DurationDays": 10,
+    "FinishWeek": 3,
+    "ElementCount": 22,
+    "Synthetic": true
+  },
+  {
+    "Task": "T/FDN - Envelope",
+    "Storey": "T/FDN",
+    "Trade": "Envelope",
+    "Start": "2027-01-14",
+    "End": "2027-01-24",
+    "DurationDays": 10,
+    "FinishWeek": 3,
+    "ElementCount": 7,
+    "Synthetic": true
+  },
+  {
+    "Task": "Level 2 - Structure",
+    "Storey": "Level 2",
+    "Trade": "Structure",
+    "Start": "2027-01-24",
+    "End": "2027-02-03",
+    "DurationDays": 10,
+    "FinishWeek": 5,
+    "ElementCount": 14,
+    "Synthetic": true
+  },
+  {
+    "Task": "Level 1 - Envelope",
+    "Storey": "Level 1",
+    "Trade": "Envelope",
+    "Start": "2027-01-24",
+    "End": "2027-02-03",
+    "DurationDays": 10,
+    "FinishWeek": 5,
+    "ElementCount": 25,
+    "Synthetic": true
+  },
+  {
+    "Task": "Roof - Structure",
+    "Storey": "Roof",
+    "Trade": "Structure",
+    "Start": "2027-02-03",
+    "End": "2027-02-13",
+    "DurationDays": 10,
+    "FinishWeek": 6,
+    "ElementCount": 1,
+    "Synthetic": true
+  },
+  {
+    "Task": "Level 2 - Envelope",
+    "Storey": "Level 2",
+    "Trade": "Envelope",
+    "Start": "2027-02-03",
+    "End": "2027-02-13",
+    "DurationDays": 10,
+    "FinishWeek": 6,
+    "ElementCount": 43,
+    "Synthetic": true
+  },
+  {
+    "Task": "Level 1 - Finishes",
+    "Storey": "Level 1",
+    "Trade": "Finishes",
+    "Start": "2027-02-03",
+    "End": "2027-02-13",
+    "DurationDays": 10,
+    "FinishWeek": 6,
+    "ElementCount": 56,
+    "Synthetic": true
+  },
+  {
+    "Task": "Roof - Envelope",
+    "Storey": "Roof",
+    "Trade": "Envelope",
+    "Start": "2027-02-13",
+    "End": "2027-02-23",
+    "DurationDays": 10,
+    "FinishWeek": 8,
+    "ElementCount": 7,
+    "Synthetic": true
+  },
+  {
+    "Task": "Level 2 - Finishes",
+    "Storey": "Level 2",
+    "Trade": "Finishes",
+    "Start": "2027-02-13",
+    "End": "2027-02-23",
+    "DurationDays": 10,
+    "FinishWeek": 8,
+    "ElementCount": 36,
+    "Synthetic": true
+  }
+]

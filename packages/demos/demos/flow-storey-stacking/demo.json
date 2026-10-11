@@ -1,0 +1,23 @@
+{
+  "slug": "flow-storey-stacking",
+  "title": "Elements per storey by class",
+  "role": "BIM manager",
+  "decision": "How many elements of each class sit on each storey, from the foundation to the roof?",
+  "kinds": [
+    "chart"
+  ],
+  "model": "duplex",
+  "data": [
+    {
+      "file": "data/figure.json",
+      "provenance": "model",
+      "note": "Duplex Apartment physical elements counted per storey and class by the graph; the output of toolkit graph viz-storey-stacking"
+    }
+  ],
+  "tags": [
+    "storey",
+    "classes",
+    "stacked",
+    "flow-graph"
+  ]
+}

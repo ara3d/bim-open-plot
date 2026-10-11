@@ -1,0 +1,849 @@
+[
+  {
+    "Class": "IFCBEAM",
+    "Parameter": "Assembly Code",
+    "Elements": 8,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCBEAM",
+    "Parameter": "AssetIdentifier",
+    "Elements": 8,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCBEAM",
+    "Parameter": "BarCode",
+    "Elements": 8,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCBEAM",
+    "Parameter": "InstallationDate",
+    "Elements": 8,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCBEAM",
+    "Parameter": "IsExternal",
+    "Elements": 8,
+    "FilledElements": 8,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCBEAM",
+    "Parameter": "LoadBearing",
+    "Elements": 8,
+    "FilledElements": 8,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCBEAM",
+    "Parameter": "Manufacturer",
+    "Elements": 8,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCBEAM",
+    "Parameter": "OmniClass Number",
+    "Elements": 8,
+    "FilledElements": 8,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCBEAM",
+    "Parameter": "Reference",
+    "Elements": 8,
+    "FilledElements": 8,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCBEAM",
+    "Parameter": "SerialNumber",
+    "Elements": 8,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCBEAM",
+    "Parameter": "WarrantyStartDate",
+    "Elements": 8,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCCOVERING",
+    "Parameter": "Assembly Code",
+    "Elements": 13,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCCOVERING",
+    "Parameter": "AssetIdentifier",
+    "Elements": 13,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCCOVERING",
+    "Parameter": "BarCode",
+    "Elements": 13,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCCOVERING",
+    "Parameter": "InstallationDate",
+    "Elements": 13,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCCOVERING",
+    "Parameter": "Manufacturer",
+    "Elements": 13,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCCOVERING",
+    "Parameter": "Reference",
+    "Elements": 13,
+    "FilledElements": 13,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCCOVERING",
+    "Parameter": "SerialNumber",
+    "Elements": 13,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCCOVERING",
+    "Parameter": "WarrantyStartDate",
+    "Elements": 13,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCDOOR",
+    "Parameter": "Assembly Code",
+    "Elements": 14,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCDOOR",
+    "Parameter": "AssetIdentifier",
+    "Elements": 14,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCDOOR",
+    "Parameter": "BarCode",
+    "Elements": 14,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCDOOR",
+    "Parameter": "FireRating",
+    "Elements": 14,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCDOOR",
+    "Parameter": "InstallationDate",
+    "Elements": 14,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCDOOR",
+    "Parameter": "IsExternal",
+    "Elements": 14,
+    "FilledElements": 14,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCDOOR",
+    "Parameter": "Manufacturer",
+    "Elements": 14,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCDOOR",
+    "Parameter": "Mark",
+    "Elements": 14,
+    "FilledElements": 14,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCDOOR",
+    "Parameter": "OmniClass Number",
+    "Elements": 14,
+    "FilledElements": 14,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCDOOR",
+    "Parameter": "Reference",
+    "Elements": 14,
+    "FilledElements": 14,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCDOOR",
+    "Parameter": "SerialNumber",
+    "Elements": 14,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCDOOR",
+    "Parameter": "Type Mark",
+    "Elements": 14,
+    "FilledElements": 14,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCDOOR",
+    "Parameter": "WarrantyStartDate",
+    "Elements": 14,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFOOTING",
+    "Parameter": "Assembly Code",
+    "Elements": 7,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFOOTING",
+    "Parameter": "AssetIdentifier",
+    "Elements": 7,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFOOTING",
+    "Parameter": "BarCode",
+    "Elements": 7,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFOOTING",
+    "Parameter": "InstallationDate",
+    "Elements": 7,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFOOTING",
+    "Parameter": "Manufacturer",
+    "Elements": 7,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFOOTING",
+    "Parameter": "Reference",
+    "Elements": 7,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFOOTING",
+    "Parameter": "SerialNumber",
+    "Elements": 7,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFOOTING",
+    "Parameter": "WarrantyStartDate",
+    "Elements": 7,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFURNISHINGELEMENT",
+    "Parameter": "Assembly Code",
+    "Elements": 61,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFURNISHINGELEMENT",
+    "Parameter": "AssetIdentifier",
+    "Elements": 61,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFURNISHINGELEMENT",
+    "Parameter": "BarCode",
+    "Elements": 61,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFURNISHINGELEMENT",
+    "Parameter": "InstallationDate",
+    "Elements": 61,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFURNISHINGELEMENT",
+    "Parameter": "Manufacturer",
+    "Elements": 61,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFURNISHINGELEMENT",
+    "Parameter": "OmniClass Number",
+    "Elements": 61,
+    "FilledElements": 61,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCFURNISHINGELEMENT",
+    "Parameter": "Reference",
+    "Elements": 61,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFURNISHINGELEMENT",
+    "Parameter": "SerialNumber",
+    "Elements": 61,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCFURNISHINGELEMENT",
+    "Parameter": "WarrantyStartDate",
+    "Elements": 61,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCRAILING",
+    "Parameter": "Assembly Code",
+    "Elements": 4,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCRAILING",
+    "Parameter": "AssetIdentifier",
+    "Elements": 4,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCRAILING",
+    "Parameter": "BarCode",
+    "Elements": 4,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCRAILING",
+    "Parameter": "InstallationDate",
+    "Elements": 4,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCRAILING",
+    "Parameter": "IsExternal",
+    "Elements": 4,
+    "FilledElements": 4,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCRAILING",
+    "Parameter": "Manufacturer",
+    "Elements": 4,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCRAILING",
+    "Parameter": "Reference",
+    "Elements": 4,
+    "FilledElements": 4,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCRAILING",
+    "Parameter": "SerialNumber",
+    "Elements": 4,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCRAILING",
+    "Parameter": "WarrantyStartDate",
+    "Elements": 4,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCROOF",
+    "Parameter": "Assembly Code",
+    "Elements": 1,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCROOF",
+    "Parameter": "AssetIdentifier",
+    "Elements": 1,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCROOF",
+    "Parameter": "BarCode",
+    "Elements": 1,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCROOF",
+    "Parameter": "InstallationDate",
+    "Elements": 1,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCROOF",
+    "Parameter": "IsExternal",
+    "Elements": 1,
+    "FilledElements": 1,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCROOF",
+    "Parameter": "Manufacturer",
+    "Elements": 1,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCROOF",
+    "Parameter": "Reference",
+    "Elements": 1,
+    "FilledElements": 1,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCROOF",
+    "Parameter": "SerialNumber",
+    "Elements": 1,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCROOF",
+    "Parameter": "WarrantyStartDate",
+    "Elements": 1,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSLAB",
+    "Parameter": "Assembly Code",
+    "Elements": 21,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSLAB",
+    "Parameter": "AssetIdentifier",
+    "Elements": 21,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSLAB",
+    "Parameter": "BarCode",
+    "Elements": 21,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSLAB",
+    "Parameter": "InstallationDate",
+    "Elements": 21,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSLAB",
+    "Parameter": "IsExternal",
+    "Elements": 21,
+    "FilledElements": 20,
+    "FillRate": 0.9523809523809523
+  },
+  {
+    "Class": "IFCSLAB",
+    "Parameter": "LoadBearing",
+    "Elements": 21,
+    "FilledElements": 20,
+    "FillRate": 0.9523809523809523
+  },
+  {
+    "Class": "IFCSLAB",
+    "Parameter": "Manufacturer",
+    "Elements": 21,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSLAB",
+    "Parameter": "Reference",
+    "Elements": 21,
+    "FilledElements": 20,
+    "FillRate": 0.9523809523809523
+  },
+  {
+    "Class": "IFCSLAB",
+    "Parameter": "SerialNumber",
+    "Elements": 21,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSLAB",
+    "Parameter": "WarrantyStartDate",
+    "Elements": 21,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSPACE",
+    "Parameter": "Reference",
+    "Elements": 21,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSTAIR",
+    "Parameter": "Assembly Code",
+    "Elements": 2,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSTAIR",
+    "Parameter": "AssetIdentifier",
+    "Elements": 2,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSTAIR",
+    "Parameter": "BarCode",
+    "Elements": 2,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSTAIR",
+    "Parameter": "InstallationDate",
+    "Elements": 2,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSTAIR",
+    "Parameter": "IsExternal",
+    "Elements": 2,
+    "FilledElements": 2,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCSTAIR",
+    "Parameter": "Manufacturer",
+    "Elements": 2,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSTAIR",
+    "Parameter": "Reference",
+    "Elements": 2,
+    "FilledElements": 2,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCSTAIR",
+    "Parameter": "SerialNumber",
+    "Elements": 2,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSTAIR",
+    "Parameter": "WarrantyStartDate",
+    "Elements": 2,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCSTAIRFLIGHT",
+    "Parameter": "Reference",
+    "Elements": 2,
+    "FilledElements": 2,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCWALL",
+    "Parameter": "Assembly Code",
+    "Elements": 1,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWALL",
+    "Parameter": "AssetIdentifier",
+    "Elements": 1,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWALL",
+    "Parameter": "BarCode",
+    "Elements": 1,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWALL",
+    "Parameter": "InstallationDate",
+    "Elements": 1,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWALL",
+    "Parameter": "IsExternal",
+    "Elements": 1,
+    "FilledElements": 1,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCWALL",
+    "Parameter": "LoadBearing",
+    "Elements": 1,
+    "FilledElements": 1,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCWALL",
+    "Parameter": "Manufacturer",
+    "Elements": 1,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWALL",
+    "Parameter": "Reference",
+    "Elements": 1,
+    "FilledElements": 1,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCWALL",
+    "Parameter": "SerialNumber",
+    "Elements": 1,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWALL",
+    "Parameter": "WarrantyStartDate",
+    "Elements": 1,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWALLSTANDARDCASE",
+    "Parameter": "Assembly Code",
+    "Elements": 56,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWALLSTANDARDCASE",
+    "Parameter": "AssetIdentifier",
+    "Elements": 56,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWALLSTANDARDCASE",
+    "Parameter": "BarCode",
+    "Elements": 56,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWALLSTANDARDCASE",
+    "Parameter": "InstallationDate",
+    "Elements": 56,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWALLSTANDARDCASE",
+    "Parameter": "IsExternal",
+    "Elements": 56,
+    "FilledElements": 56,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCWALLSTANDARDCASE",
+    "Parameter": "LoadBearing",
+    "Elements": 56,
+    "FilledElements": 56,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCWALLSTANDARDCASE",
+    "Parameter": "Manufacturer",
+    "Elements": 56,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWALLSTANDARDCASE",
+    "Parameter": "Reference",
+    "Elements": 56,
+    "FilledElements": 56,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCWALLSTANDARDCASE",
+    "Parameter": "SerialNumber",
+    "Elements": 56,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWALLSTANDARDCASE",
+    "Parameter": "WarrantyStartDate",
+    "Elements": 56,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWINDOW",
+    "Parameter": "Assembly Code",
+    "Elements": 24,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWINDOW",
+    "Parameter": "AssetIdentifier",
+    "Elements": 24,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWINDOW",
+    "Parameter": "BarCode",
+    "Elements": 24,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWINDOW",
+    "Parameter": "FireRating",
+    "Elements": 24,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWINDOW",
+    "Parameter": "InstallationDate",
+    "Elements": 24,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWINDOW",
+    "Parameter": "IsExternal",
+    "Elements": 24,
+    "FilledElements": 24,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCWINDOW",
+    "Parameter": "Manufacturer",
+    "Elements": 24,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWINDOW",
+    "Parameter": "Mark",
+    "Elements": 24,
+    "FilledElements": 24,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCWINDOW",
+    "Parameter": "OmniClass Number",
+    "Elements": 24,
+    "FilledElements": 24,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCWINDOW",
+    "Parameter": "Reference",
+    "Elements": 24,
+    "FilledElements": 24,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCWINDOW",
+    "Parameter": "SerialNumber",
+    "Elements": 24,
+    "FilledElements": 0,
+    "FillRate": 0
+  },
+  {
+    "Class": "IFCWINDOW",
+    "Parameter": "Type Mark",
+    "Elements": 24,
+    "FilledElements": 24,
+    "FillRate": 1
+  },
+  {
+    "Class": "IFCWINDOW",
+    "Parameter": "WarrantyStartDate",
+    "Elements": 24,
+    "FilledElements": 0,
+    "FillRate": 0
+  }
+]

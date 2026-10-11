@@ -1,0 +1,25 @@
+{
+  "slug": "flow-parameter-completeness",
+  "title": "Handover parameter fill rate",
+  "role": "BIM manager",
+  "decision": "Which classes of element are missing the parameters the handover needs?",
+  "kinds": [
+    "chart"
+  ],
+  "model": "duplex",
+  "data": [
+    {
+      "file": "data/figure.json",
+      "provenance": "model",
+      "note": "Duplex Apartment parameter values checked against fourteen COBie-style handover fields by the graph; the output of toolkit graph viz-parameter-completeness"
+    }
+  ],
+  "tags": [
+    "handover",
+    "cobie",
+    "completeness",
+    "heatmap",
+    "qa",
+    "flow-graph"
+  ]
+}

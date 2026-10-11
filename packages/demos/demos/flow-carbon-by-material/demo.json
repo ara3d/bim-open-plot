@@ -1,0 +1,24 @@
+{
+  "slug": "flow-carbon-by-material",
+  "title": "Embodied carbon by material",
+  "role": "Sustainability lead",
+  "decision": "Which few materials carry 80% of the embodied carbon, and which can be ignored?",
+  "kinds": [
+    "chart"
+  ],
+  "model": "duplex",
+  "data": [
+    {
+      "file": "data/figure.json",
+      "provenance": "synthetic",
+      "note": "Element embodied carbon (A1-A3) from the NRC paper's nrc_analytics_elements.csv, which the toolkit marks synthetic, over the Duplex Apartment's materials, split over material layers by thickness; the output of toolkit graph viz-carbon-by-material"
+    }
+  ],
+  "tags": [
+    "carbon",
+    "pareto",
+    "material",
+    "sustainability",
+    "flow-graph"
+  ]
+}

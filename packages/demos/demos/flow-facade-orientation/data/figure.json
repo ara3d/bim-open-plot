@@ -1,0 +1,58 @@
+[
+  {
+    "Sector": 0,
+    "Direction": "N",
+    "Wall": 58.15920097522735,
+    "Window": 20.313562057279967,
+    "Total": 78.47276303250732
+  },
+  {
+    "Sector": 1,
+    "Direction": "NE",
+    "Wall": null,
+    "Window": 10.26286279717624,
+    "Total": 10.26286279717624
+  },
+  {
+    "Sector": 2,
+    "Direction": "E",
+    "Wall": 116.09354201357655,
+    "Window": null,
+    "Total": 116.09354201357655
+  },
+  {
+    "Sector": 3,
+    "Direction": "SE",
+    "Wall": null,
+    "Window": 1.6499998569488525,
+    "Total": 1.6499998569488525
+  },
+  {
+    "Sector": 4,
+    "Direction": "S",
+    "Wall": 56.61254860823442,
+    "Window": 20.313559080326286,
+    "Total": 76.9261076885607
+  },
+  {
+    "Sector": 5,
+    "Direction": "SW",
+    "Wall": null,
+    "Window": 10.262861073410022,
+    "Total": 10.262861073410022
+  },
+  {
+    "Sector": 6,
+    "Direction": "W",
+    "Wall": 114.54688964658362,
+    "Window": null,
+    "Total": 114.54688964658362
+  },
+  {
+    "Sector": 7,
+    "Direction": "NW",
+    "Wall": null,
+    "Window": 1.6499998569488525,
+    "Total": 1.6499998569488525
+  }
+]

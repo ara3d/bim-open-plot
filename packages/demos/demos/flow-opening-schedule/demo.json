@@ -1,0 +1,24 @@
+{
+  "slug": "flow-opening-schedule",
+  "title": "Door and window schedule",
+  "role": "Estimator",
+  "decision": "How many doors and windows of each type and size are on each storey?",
+  "kinds": [
+    "chart"
+  ],
+  "model": "duplex",
+  "data": [
+    {
+      "file": "data/figure.json",
+      "provenance": "model",
+      "note": "Duplex Apartment door and window OverallWidth and OverallHeight, grouped per storey, type, and size by the graph; the output of toolkit graph viz-opening-schedule"
+    }
+  ],
+  "tags": [
+    "schedule",
+    "doors",
+    "windows",
+    "quantities",
+    "flow-graph"
+  ]
+}

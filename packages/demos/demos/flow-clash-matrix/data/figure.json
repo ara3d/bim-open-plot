@@ -1,0 +1,177 @@
+[
+  {
+    "RowClass": "IFCBEAM",
+    "ColumnClass": "IFCWALLSTANDARDCASE",
+    "Pairs": 12,
+    "OverlapVolume": 2.1330528145292282,
+    "ClassPair": "IFCBEAM / IFCWALLSTANDARDCASE"
+  },
+  {
+    "RowClass": "IFCBEAM",
+    "ColumnClass": "IFCWINDOW",
+    "Pairs": 8,
+    "OverlapVolume": 0.043803714402430964,
+    "ClassPair": "IFCBEAM / IFCWINDOW"
+  },
+  {
+    "RowClass": "IFCCOVERING",
+    "ColumnClass": "IFCCOVERING",
+    "Pairs": 12,
+    "OverlapVolume": 2.108304020106439,
+    "ClassPair": "IFCCOVERING / IFCCOVERING"
+  },
+  {
+    "RowClass": "IFCCOVERING",
+    "ColumnClass": "IFCMEMBER",
+    "Pairs": 8,
+    "OverlapVolume": 0.06156027594417325,
+    "ClassPair": "IFCCOVERING / IFCMEMBER"
+  },
+  {
+    "RowClass": "IFCCOVERING",
+    "ColumnClass": "IFCRAILING",
+    "Pairs": 8,
+    "OverlapVolume": 0.08059245995835675,
+    "ClassPair": "IFCCOVERING / IFCRAILING"
+  },
+  {
+    "RowClass": "IFCCOVERING",
+    "ColumnClass": "IFCSTAIRFLIGHT",
+    "Pairs": 4,
+    "OverlapVolume": 0.5642093855781901,
+    "ClassPair": "IFCCOVERING / IFCSTAIRFLIGHT"
+  },
+  {
+    "RowClass": "IFCCOVERING",
+    "ColumnClass": "IFCWALLSTANDARDCASE",
+    "Pairs": 47,
+    "OverlapVolume": 0.894723273068056,
+    "ClassPair": "IFCCOVERING / IFCWALLSTANDARDCASE"
+  },
+  {
+    "RowClass": "IFCDOOR",
+    "ColumnClass": "IFCRAILING",
+    "Pairs": 2,
+    "OverlapVolume": 0.02733200651097606,
+    "ClassPair": "IFCDOOR / IFCRAILING"
+  },
+  {
+    "RowClass": "IFCDOOR",
+    "ColumnClass": "IFCSLAB",
+    "Pairs": 16,
+    "OverlapVolume": 0.043953311248762214,
+    "ClassPair": "IFCDOOR / IFCSLAB"
+  },
+  {
+    "RowClass": "IFCDOOR",
+    "ColumnClass": "IFCWALLSTANDARDCASE",
+    "Pairs": 21,
+    "OverlapVolume": 7.020916249432716,
+    "ClassPair": "IFCDOOR / IFCWALLSTANDARDCASE"
+  },
+  {
+    "RowClass": "IFCFURNISHINGELEMENT",
+    "ColumnClass": "IFCSLAB",
+    "Pairs": 57,
+    "OverlapVolume": 0.8499886461738538,
+    "ClassPair": "IFCFURNISHINGELEMENT / IFCSLAB"
+  },
+  {
+    "RowClass": "IFCFURNISHINGELEMENT",
+    "ColumnClass": "IFCWALLSTANDARDCASE",
+    "Pairs": 1,
+    "OverlapVolume": 0.015724171844185033,
+    "ClassPair": "IFCFURNISHINGELEMENT / IFCWALLSTANDARDCASE"
+  },
+  {
+    "RowClass": "IFCMEMBER",
+    "ColumnClass": "IFCRAILING",
+    "Pairs": 4,
+    "OverlapVolume": 1.5794541277466134,
+    "ClassPair": "IFCMEMBER / IFCRAILING"
+  },
+  {
+    "RowClass": "IFCMEMBER",
+    "ColumnClass": "IFCSLAB",
+    "Pairs": 12,
+    "OverlapVolume": 0.2492704979039106,
+    "ClassPair": "IFCMEMBER / IFCSLAB"
+  },
+  {
+    "RowClass": "IFCMEMBER",
+    "ColumnClass": "IFCWALLSTANDARDCASE",
+    "Pairs": 4,
+    "OverlapVolume": 0.012102452138230666,
+    "ClassPair": "IFCMEMBER / IFCWALLSTANDARDCASE"
+  },
+  {
+    "RowClass": "IFCRAILING",
+    "ColumnClass": "IFCSLAB",
+    "Pairs": 10,
+    "OverlapVolume": 0.3207520964998785,
+    "ClassPair": "IFCRAILING / IFCSLAB"
+  },
+  {
+    "RowClass": "IFCRAILING",
+    "ColumnClass": "IFCWALLSTANDARDCASE",
+    "Pairs": 8,
+    "OverlapVolume": 0.22704550932759748,
+    "ClassPair": "IFCRAILING / IFCWALLSTANDARDCASE"
+  },
+  {
+    "RowClass": "IFCROOF",
+    "ColumnClass": "IFCSLAB",
+    "Pairs": 1,
+    "OverlapVolume": 61.76404987703196,
+    "ClassPair": "IFCROOF / IFCSLAB"
+  },
+  {
+    "RowClass": "IFCSLAB",
+    "ColumnClass": "IFCSLAB",
+    "Pairs": 12,
+    "OverlapVolume": 2.4868316244819275,
+    "ClassPair": "IFCSLAB / IFCSLAB"
+  },
+  {
+    "RowClass": "IFCSLAB",
+    "ColumnClass": "IFCSTAIRFLIGHT",
+    "Pairs": 6,
+    "OverlapVolume": 1.9426896714461588,
+    "ClassPair": "IFCSLAB / IFCSTAIRFLIGHT"
+  },
+  {
+    "RowClass": "IFCSLAB",
+    "ColumnClass": "IFCWALLSTANDARDCASE",
+    "Pairs": 40,
+    "OverlapVolume": 1.2396686117658182,
+    "ClassPair": "IFCSLAB / IFCWALLSTANDARDCASE"
+  },
+  {
+    "RowClass": "IFCSTAIRFLIGHT",
+    "ColumnClass": "IFCWALLSTANDARDCASE",
+    "Pairs": 4,
+    "OverlapVolume": 0.21433489417757892,
+    "ClassPair": "IFCSTAIRFLIGHT / IFCWALLSTANDARDCASE"
+  },
+  {
+    "RowClass": "IFCWALL",
+    "ColumnClass": "IFCWALLSTANDARDCASE",
+    "Pairs": 2,
+    "OverlapVolume": 1.2306612620671684,
+    "ClassPair": "IFCWALL / IFCWALLSTANDARDCASE"
+  },
+  {
+    "RowClass": "IFCWALLSTANDARDCASE",
+    "ColumnClass": "IFCWALLSTANDARDCASE",
+    "Pairs": 10,
+    "OverlapVolume": 4.726910411908294,
+    "ClassPair": "IFCWALLSTANDARDCASE / IFCWALLSTANDARDCASE"
+  },
+  {
+    "RowClass": "IFCWALLSTANDARDCASE",
+    "ColumnClass": "IFCWINDOW",
+    "Pairs": 22,
+    "OverlapVolume": 26.876832875509333,
+    "ClassPair": "IFCWALLSTANDARDCASE / IFCWINDOW"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "slug": "flow-model-composition",
+  "title": "What the model is made of",
+  "role": "BIM manager",
+  "decision": "Which element classes make up the model, and how large is each share?",
+  "kinds": [
+    "chart"
+  ],
+  "model": "duplex",
+  "data": [
+    {
+      "file": "data/figure.json",
+      "provenance": "model",
+      "note": "Duplex Apartment physical elements counted per class by the graph, the smallest classes folded into Other; the output of toolkit graph viz-model-composition"
+    }
+  ],
+  "tags": [
+    "composition",
+    "classes",
+    "overview",
+    "flow-graph"
+  ]
+}

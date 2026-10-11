@@ -1,0 +1,23 @@
+{
+  "slug": "flow-progress-s-curve",
+  "title": "Progress S-curve (from the graph)",
+  "role": "Project manager",
+  "decision": "How many elements should be installed by each week, and how far behind is the site?",
+  "kinds": [
+    "chart"
+  ],
+  "model": "duplex",
+  "data": [
+    {
+      "file": "data/figure.json",
+      "provenance": "synthetic",
+      "note": "Invented by bim.buildSequence over the Duplex Apartment's real element list: storeys bottom-up, trades Structure, Envelope, MEP, Finishes, 10-day tasks from 2027-01-04; no real programme; Actual is Planned held three weeks late, a made-up slip; the output of toolkit graph viz-progress-s-curve"
+    }
+  ],
+  "tags": [
+    "schedule",
+    "progress",
+    "s-curve",
+    "flow-graph"
+  ]
+}

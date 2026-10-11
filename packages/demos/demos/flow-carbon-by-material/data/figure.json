@@ -1,0 +1,184 @@
+[
+  {
+    "MaterialOrClass": "Metal - Stud Layer",
+    "MaterialTotal_kgCO2e": 23468.08555372039,
+    "Share": 0.20278255179257626,
+    "CumulativeShare": 0.20278255179257626,
+    "ParetoClass": "A"
+  },
+  {
+    "MaterialOrClass": "Wood - Flooring",
+    "MaterialTotal_kgCO2e": 15238.147368421054,
+    "Share": 0.1316694709027891,
+    "CumulativeShare": 0.33445202269536534,
+    "ParetoClass": "A"
+  },
+  {
+    "MaterialOrClass": "Ceramic Tile",
+    "MaterialTotal_kgCO2e": 11001.846153846152,
+    "Share": 0.09506452635002374,
+    "CumulativeShare": 0.42951654904538905,
+    "ParetoClass": "A"
+  },
+  {
+    "MaterialOrClass": "Concrete - Cast In Situ",
+    "MaterialTotal_kgCO2e": 9952.3,
+    "Share": 0.08599562949374537,
+    "CumulativeShare": 0.5155121785391344,
+    "ParetoClass": "A"
+  },
+  {
+    "MaterialOrClass": "Plasterboard",
+    "MaterialTotal_kgCO2e": 7373.13778709594,
+    "Share": 0.06370965760130182,
+    "CumulativeShare": 0.5792218361404362,
+    "ParetoClass": "A"
+  },
+  {
+    "MaterialOrClass": "Masonry - Concrete Block",
+    "MaterialTotal_kgCO2e": 7333.740434693877,
+    "Share": 0.0633692337675948,
+    "CumulativeShare": 0.642591069908031,
+    "ParetoClass": "A"
+  },
+  {
+    "MaterialOrClass": "IFCFOOTING (no material)",
+    "MaterialTotal_kgCO2e": 6562.8,
+    "Share": 0.05670770748887716,
+    "CumulativeShare": 0.6992987773969082,
+    "ParetoClass": "A"
+  },
+  {
+    "MaterialOrClass": "Concrete",
+    "MaterialTotal_kgCO2e": 5115.6,
+    "Share": 0.04420277144360639,
+    "CumulativeShare": 0.7435015488405146,
+    "ParetoClass": "A"
+  },
+  {
+    "MaterialOrClass": "Wood - Dimensional Lumber",
+    "MaterialTotal_kgCO2e": 4951.363278688525,
+    "Share": 0.042783638154299475,
+    "CumulativeShare": 0.786285186994814,
+    "ParetoClass": "A"
+  },
+  {
+    "MaterialOrClass": "IFCWINDOW (no material)",
+    "MaterialTotal_kgCO2e": 3837.9,
+    "Share": 0.03316244751806571,
+    "CumulativeShare": 0.8194476345128797,
+    "ParetoClass": "A"
+  },
+  {
+    "MaterialOrClass": "Masonry - Grout",
+    "MaterialTotal_kgCO2e": 3300.5538461538463,
+    "Share": 0.028519357905007127,
+    "CumulativeShare": 0.8479669924178869,
+    "ParetoClass": "B"
+  },
+  {
+    "MaterialOrClass": "Insulation / Thermal Barriers - Semi-rigid insulation",
+    "MaterialTotal_kgCO2e": 2857.152631578948,
+    "Share": 0.02468802579427296,
+    "CumulativeShare": 0.8726550182121598,
+    "ParetoClass": "B"
+  },
+  {
+    "MaterialOrClass": "IFCFURNISHINGELEMENT (no material)",
+    "MaterialTotal_kgCO2e": 2614.1000000000004,
+    "Share": 0.02258786160581974,
+    "CumulativeShare": 0.8952428798179796,
+    "ParetoClass": "B"
+  },
+  {
+    "MaterialOrClass": "Metal - Steel - 345 MPa",
+    "MaterialTotal_kgCO2e": 2380.4,
+    "Share": 0.020568511444280367,
+    "CumulativeShare": 0.91581139126226,
+    "ParetoClass": "B"
+  },
+  {
+    "MaterialOrClass": "Masonry - Brick",
+    "MaterialTotal_kgCO2e": 2318.4234693877547,
+    "Share": 0.02003298591110327,
+    "CumulativeShare": 0.9358443771733632,
+    "ParetoClass": "B"
+  },
+  {
+    "MaterialOrClass": "IFCSLAB (no material)",
+    "MaterialTotal_kgCO2e": 1838.5,
+    "Share": 0.015886073050877775,
+    "CumulativeShare": 0.951730450224241,
+    "ParetoClass": "B"
+  },
+  {
+    "MaterialOrClass": "IFCSTAIR (no material)",
+    "MaterialTotal_kgCO2e": 1379.4,
+    "Share": 0.011919091197378733,
+    "CumulativeShare": 0.9636495414216197,
+    "ParetoClass": "C"
+  },
+  {
+    "MaterialOrClass": "IFCDOOR (no material)",
+    "MaterialTotal_kgCO2e": 1346.1000000000001,
+    "Share": 0.011631353241113175,
+    "CumulativeShare": 0.9752808946627329,
+    "ParetoClass": "C"
+  },
+  {
+    "MaterialOrClass": "Insulation / Thermal Barriers - Rigid insulation",
+    "MaterialTotal_kgCO2e": 1260.012755102041,
+    "Share": 0.01088749234299091,
+    "CumulativeShare": 0.9861683870057238,
+    "ParetoClass": "C"
+  },
+  {
+    "MaterialOrClass": "IFCSTAIRFLIGHT (no material)",
+    "MaterialTotal_kgCO2e": 526.2,
+    "Share": 0.004546778155763875,
+    "CumulativeShare": 0.9907151651614877,
+    "ParetoClass": "C"
+  },
+  {
+    "MaterialOrClass": "IFCMEMBER (no material)",
+    "MaterialTotal_kgCO2e": 489.19999999999993,
+    "Share": 0.004227069315468809,
+    "CumulativeShare": 0.9949422344769565,
+    "ParetoClass": "C"
+  },
+  {
+    "MaterialOrClass": "Wood - Sheathing - plywood",
+    "MaterialTotal_kgCO2e": 328.93672131147537,
+    "Share": 0.0028422696675933215,
+    "CumulativeShare": 0.9977845041445498,
+    "ParetoClass": "C"
+  },
+  {
+    "MaterialOrClass": "IFCRAILING (no material)",
+    "MaterialTotal_kgCO2e": 256.40000000000003,
+    "Share": 0.0022154958554501288,
+    "CumulativeShare": 0.9999999999999999,
+    "ParetoClass": "C"
+  },
+  {
+    "MaterialOrClass": "Roofing - Barrier",
+    "MaterialTotal_kgCO2e": null,
+    "Share": null,
+    "CumulativeShare": 0.9999999999999999,
+    "ParetoClass": "no carbon value"
+  },
+  {
+    "MaterialOrClass": "Roofing - EPDM Membrane",
+    "MaterialTotal_kgCO2e": null,
+    "Share": null,
+    "CumulativeShare": 0.9999999999999999,
+    "ParetoClass": "no carbon value"
+  },
+  {
+    "MaterialOrClass": "Site - Grass",
+    "MaterialTotal_kgCO2e": null,
+    "Share": null,
+    "CumulativeShare": 0.9999999999999999,
+    "ParetoClass": "no carbon value"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "Group": "Furniture",
+    "Elements": 61,
+    "Share": 0.2798165137614679,
+    "IsOther": 0
+  },
+  {
+    "Group": "Wall",
+    "Elements": 57,
+    "Share": 0.26146788990825687,
+    "IsOther": 0
+  },
+  {
+    "Group": "Window",
+    "Elements": 24,
+    "Share": 0.11009174311926606,
+    "IsOther": 0
+  },
+  {
+    "Group": "Slab",
+    "Elements": 21,
+    "Share": 0.0963302752293578,
+    "IsOther": 0
+  },
+  {
+    "Group": "Door",
+    "Elements": 14,
+    "Share": 0.06422018348623854,
+    "IsOther": 0
+  },
+  {
+    "Group": "Covering",
+    "Elements": 13,
+    "Share": 0.05963302752293578,
+    "IsOther": 0
+  },
+  {
+    "Group": "Beam",
+    "Elements": 8,
+    "Share": 0.03669724770642202,
+    "IsOther": 0
+  },
+  {
+    "Group": "Other",
+    "Elements": 20,
+    "Share": 0.09174311926605505,
+    "IsOther": 1
+  }
+]

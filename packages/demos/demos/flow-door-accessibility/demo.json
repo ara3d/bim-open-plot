@@ -1,0 +1,24 @@
+{
+  "slug": "flow-door-accessibility",
+  "title": "Door widths against 850 mm",
+  "role": "Accessibility reviewer",
+  "decision": "Which doors are narrower than the 850 mm accessible minimum?",
+  "kinds": [
+    "chart"
+  ],
+  "model": "duplex",
+  "data": [
+    {
+      "file": "data/figure.json",
+      "provenance": "model",
+      "note": "Duplex Apartment door OverallWidth, binned per 50 mm and scored against the 850 mm rule by the graph; the output of toolkit graph viz-door-accessibility"
+    }
+  ],
+  "tags": [
+    "accessibility",
+    "doors",
+    "histogram",
+    "compliance",
+    "flow-graph"
+  ]
+}

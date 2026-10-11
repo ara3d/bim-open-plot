@@ -1,0 +1,123 @@
+[
+  {
+    "Storey": "Level 1",
+    "Kind": "Door",
+    "Type": "0762 x 2032mm",
+    "OpeningType": "Door 0762 x 2032mm",
+    "Width_mm": 762,
+    "Height_mm": 2032,
+    "Count": 2,
+    "Area_m2": 3.096768,
+    "Label": "Level 1 | Door 0762 x 2032mm"
+  },
+  {
+    "Storey": "Level 1",
+    "Kind": "Door",
+    "Type": "0813 x 2420mm",
+    "OpeningType": "Door 0813 x 2420mm",
+    "Width_mm": 813,
+    "Height_mm": 2420,
+    "Count": 2,
+    "Area_m2": 3.93492,
+    "Label": "Level 1 | Door 0813 x 2420mm"
+  },
+  {
+    "Storey": "Level 1",
+    "Kind": "Door",
+    "Type": "1250mm x 2010mm",
+    "OpeningType": "Door 1250mm x 2010mm",
+    "Width_mm": 1250,
+    "Height_mm": 2010,
+    "Count": 2,
+    "Area_m2": 5.025,
+    "Label": "Level 1 | Door 1250mm x 2010mm"
+  },
+  {
+    "Storey": "Level 1",
+    "Kind": "Window",
+    "Type": "4835mm x 2420mm",
+    "OpeningType": "Window 4835mm x 2420mm",
+    "Width_mm": 4835,
+    "Height_mm": 2420,
+    "Count": 2,
+    "Area_m2": 23.4014,
+    "Label": "Level 1 | Window 4835mm x 2420mm"
+  },
+  {
+    "Storey": "Level 1",
+    "Kind": "Window",
+    "Type": "750mm x 2200mm",
+    "OpeningType": "Window 750mm x 2200mm",
+    "Width_mm": 750,
+    "Height_mm": 2200,
+    "Count": 2,
+    "Area_m2": 3.3,
+    "Label": "Level 1 | Window 750mm x 2200mm"
+  },
+  {
+    "Storey": "Level 2",
+    "Kind": "Door",
+    "Type": "0762 x 2032mm",
+    "OpeningType": "Door 0762 x 2032mm",
+    "Width_mm": 762,
+    "Height_mm": 2032,
+    "Count": 2,
+    "Area_m2": 3.096768,
+    "Label": "Level 2 | Door 0762 x 2032mm"
+  },
+  {
+    "Storey": "Level 2",
+    "Kind": "Door",
+    "Type": "0864 x 2032mm",
+    "OpeningType": "Door 0864 x 2032mm",
+    "Width_mm": 864,
+    "Height_mm": 2032,
+    "Count": 6,
+    "Area_m2": 10.533888000000001,
+    "Label": "Level 2 | Door 0864 x 2032mm"
+  },
+  {
+    "Storey": "Level 2",
+    "Kind": "Window",
+    "Type": "2800mm x 2410mm",
+    "OpeningType": "Window 2800mm x 2410mm",
+    "Width_mm": 2800,
+    "Height_mm": 2410,
+    "Count": 4,
+    "Area_m2": 26.992,
+    "Label": "Level 2 | Window 2800mm x 2410mm"
+  },
+  {
+    "Storey": "Level 2",
+    "Kind": "Window",
+    "Type": "750mm x 2200mm",
+    "OpeningType": "Window 750mm x 2200mm",
+    "Width_mm": 750,
+    "Height_mm": 2200,
+    "Count": 2,
+    "Area_m2": 3.3,
+    "Label": "Level 2 | Window 750mm x 2200mm"
+  },
+  {
+    "Storey": "Level 2",
+    "Kind": "Window",
+    "Type": "819mm x 759mm",
+    "OpeningType": "Window 819mm x 759mm",
+    "Width_mm": 819,
+    "Height_mm": 759,
+    "Count": 12,
+    "Area_m2": 7.4594520000000015,
+    "Label": "Level 2 | Window 819mm x 759mm"
+  },
+  {
+    "Storey": "Roof",
+    "Kind": "Window",
+    "Type": "1180 x 1170mm",
+    "OpeningType": "Window 1180 x 1170mm",
+    "Width_mm": 1173,
+    "Height_mm": 635,
+    "Count": 2,
+    "Area_m2": 1.48971,
+    "Label": "Roof | Window 1180 x 1170mm"
+  }
+]

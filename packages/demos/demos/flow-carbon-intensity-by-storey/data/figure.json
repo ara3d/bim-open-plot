@@ -1,0 +1,50 @@
+[
+  {
+    "StoreyEntityId": 43,
+    "Storey": "Level 2",
+    "EmbodiedCarbon_kgCO2e": 48696.80000000001,
+    "Elements": 93,
+    "ElementsWithCarbon": 93,
+    "FloorArea_m2": 134.5342616,
+    "Spaces": 10,
+    "SpacesWithArea": 10,
+    "Intensity_kgCO2e_per_m2": 361.96578790305716,
+    "AreaBasis": "net space area"
+  },
+  {
+    "StoreyEntityId": 39,
+    "Storey": "Level 1",
+    "EmbodiedCarbon_kgCO2e": 49451.19999999999,
+    "Elements": 103,
+    "ElementsWithCarbon": 103,
+    "FloorArea_m2": 141.79061499999997,
+    "Spaces": 10,
+    "SpacesWithArea": 10,
+    "Intensity_kgCO2e_per_m2": 348.7621518532803,
+    "AreaBasis": "net space area"
+  },
+  {
+    "StoreyEntityId": 51,
+    "Storey": "Roof",
+    "EmbodiedCarbon_kgCO2e": 5821,
+    "Elements": 8,
+    "ElementsWithCarbon": 7,
+    "FloorArea_m2": 145.7217,
+    "Spaces": 1,
+    "SpacesWithArea": 1,
+    "Intensity_kgCO2e_per_m2": 39.94600666887636,
+    "AreaBasis": "net space area"
+  },
+  {
+    "StoreyEntityId": 47,
+    "Storey": "T/FDN",
+    "EmbodiedCarbon_kgCO2e": 11761.300000000001,
+    "Elements": 14,
+    "ElementsWithCarbon": 14,
+    "FloorArea_m2": null,
+    "Spaces": null,
+    "SpacesWithArea": null,
+    "Intensity_kgCO2e_per_m2": null,
+    "AreaBasis": "no spaces: intensity missing"
+  }
+]

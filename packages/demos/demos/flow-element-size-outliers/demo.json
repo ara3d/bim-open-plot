@@ -1,0 +1,24 @@
+{
+  "slug": "flow-element-size-outliers",
+  "title": "Element size outliers",
+  "role": "Model auditor",
+  "decision": "Which elements are ten or more times larger or smaller than the rest of their IFC class?",
+  "kinds": [
+    "chart"
+  ],
+  "model": "duplex",
+  "data": [
+    {
+      "file": "data/figure.json",
+      "provenance": "model",
+      "note": "Duplex Apartment elements with mesh volume, height, and class median, computed by the graph; the output of toolkit graph viz-element-size-outliers"
+    }
+  ],
+  "tags": [
+    "outliers",
+    "qa",
+    "scatter",
+    "volume",
+    "flow-graph"
+  ]
+}

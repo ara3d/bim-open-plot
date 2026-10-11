@@ -1,0 +1,24 @@
+{
+  "slug": "flow-clash-matrix",
+  "title": "Clash candidate matrix (from the graph)",
+  "role": "Coordinator",
+  "decision": "Which pairs of IFC classes have the most elements whose bounding boxes overlap?",
+  "kinds": [
+    "chart"
+  ],
+  "model": "duplex",
+  "data": [
+    {
+      "file": "data/figure.json",
+      "provenance": "model",
+      "note": "Duplex Apartment bounding-box overlaps over one litre, counted per class pair by the graph; the output of toolkit graph viz-clash-matrix"
+    }
+  ],
+  "tags": [
+    "clash",
+    "coordination",
+    "heatmap",
+    "matrix",
+    "flow-graph"
+  ]
+}
