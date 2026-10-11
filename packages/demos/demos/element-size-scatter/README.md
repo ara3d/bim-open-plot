@@ -1,0 +1,9 @@
+# Element size outliers
+
+Which elements in the Duplex Apartment stand out in volume and height, and whether each outlier is a real element or a modelling error. A scatter of every built element's volume (m³, log scale) against its height (the vertical size of its bounding box, m), coloured by class group, with circles for a modelled volume and triangles for a bounding-box volume; then a bar chart of the ten largest elements by volume, each labelled with its IFC class and where its volume comes from.
+
+- For: a quantity surveyor checking a take-off before pricing it.
+- Result: 216 built elements drawn. 105 (walls, slabs, coverings, beams, footings) carry `PSet_Revit_Dimensions.Volume`; 111 (doors, windows, furniture, stairs, railings, the roof) have none and use their box volume. None is left out for a zero or missing size. The largest is the flat roof at 61.8 m³ of box, listed twice because the `IFCROOF` and the `IFCSLAB` it contains share one name and one box; the largest modelled volume is the party wall at 25.8 m³.
+- Data: `/data/duplex/elements.json` (class and storey), `/data/duplex/parameters.json` (`Volume` from the `PSet_Revit_Dimensions` group only), `/data/duplex/bounds.json` (box sizes in metres, joined by STEP id). Model data only, nothing synthetic.
+- Approximations, stated in the caption: a box volume over-states a sloped, L-shaped, or hollow element (on elements with both numbers, the box is up to about 9.7 times the modelled volume); height is the box's vertical size, not a modelled height; the 21 rooms (`IFCSPACE`) are left out because their volume is air, not built quantity. Classes are grouped into seven colours so the theme's eight-colour palette never repeats; the tooltip gives the exact class.
+- Run: `npm run demos` at the repository root, then `/demos/element-size-scatter/`. Test: `npx vitest run --root packages/demos -t "element-size-scatter"`.

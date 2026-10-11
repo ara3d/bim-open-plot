@@ -1,0 +1,14 @@
+{
+  "slug": "element-size-scatter",
+  "title": "Element size outliers",
+  "role": "Quantity surveyor",
+  "decision": "Which elements are outliers in volume and height, and are they real or modelling errors?",
+  "kinds": ["chart"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment elements with their IFC class and storey" },
+    { "file": "/data/duplex/parameters.json", "provenance": "model", "note": "Duplex Apartment modelled volumes (PSet_Revit_Dimensions Volume, m³) for walls, slabs, coverings, beams, and footings" },
+    { "file": "/data/duplex/bounds.json", "provenance": "model", "note": "Duplex Apartment bounding boxes in metres: the height of every element, and the volume of those with no modelled one" }
+  ],
+  "tags": ["quantities", "outliers", "volume", "model-quality"]
+}
