@@ -1,0 +1,13 @@
+{
+  "slug": "element-mix-by-storey",
+  "title": "Element mix by storey",
+  "role": "BIM manager",
+  "decision": "Which element classes make up each storey, and is anything unassigned to a storey?",
+  "kinds": ["chart"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment entities with their IFC class and storey" },
+    { "file": "/data/duplex/parameters.json", "provenance": "model", "note": "Duplex Apartment storey elevations (Ifc:Elevation), used to order the storeys" }
+  ],
+  "tags": ["storey", "classes", "model-quality"]
+}
