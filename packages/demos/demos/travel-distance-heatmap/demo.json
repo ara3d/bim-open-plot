@@ -1,0 +1,13 @@
+{
+  "slug": "travel-distance-heatmap",
+  "title": "Travel distance to an exit",
+  "role": "Fire engineer",
+  "decision": "Which rooms are furthest from an exit, and which exceed a travel-distance limit?",
+  "kinds": ["drawing", "chart"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment entities with their IFC class and storey" },
+    { "file": "/data/duplex/bounds.json", "provenance": "model", "note": "Duplex Apartment bounding box per element; rooms, doors, stairs, and distances are derived from these boxes" }
+  ],
+  "tags": ["egress", "travel-distance", "heatmap", "floor-plan", "fire"]
+}
