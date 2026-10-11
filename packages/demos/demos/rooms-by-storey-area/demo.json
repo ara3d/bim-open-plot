@@ -1,0 +1,13 @@
+{
+  "slug": "rooms-by-storey-area",
+  "title": "Floor area by storey and room",
+  "role": "Architect",
+  "decision": "Which storey carries the most floor area, and how is it split between rooms?",
+  "kinds": ["chart"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment spaces and storeys, with the storey each space sits on" },
+    { "file": "/data/duplex/parameters.json", "provenance": "model", "note": "Duplex Apartment values: space Area (PSet_Revit_Dimensions), room Number, OccupancyZoneName (the unit), and storey Ifc:Elevation" }
+  ],
+  "tags": ["area", "storey", "rooms"]
+}
