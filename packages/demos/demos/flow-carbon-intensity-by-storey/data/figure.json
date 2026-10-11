@@ -9,7 +9,8 @@
     "Spaces": 10,
     "SpacesWithArea": 10,
     "Intensity_kgCO2e_per_m2": 361.96578790305716,
-    "AreaBasis": "net space area"
+    "AreaBasis": "net space area",
+    "Synthetic": true
   },
   {
     "StoreyEntityId": 39,
@@ -21,7 +22,8 @@
     "Spaces": 10,
     "SpacesWithArea": 10,
     "Intensity_kgCO2e_per_m2": 348.7621518532803,
-    "AreaBasis": "net space area"
+    "AreaBasis": "net space area",
+    "Synthetic": true
   },
   {
     "StoreyEntityId": 51,
@@ -33,7 +35,8 @@
     "Spaces": 1,
     "SpacesWithArea": 1,
     "Intensity_kgCO2e_per_m2": 39.94600666887636,
-    "AreaBasis": "net space area"
+    "AreaBasis": "net space area",
+    "Synthetic": true
   },
   {
     "StoreyEntityId": 47,
@@ -45,6 +48,7 @@
     "Spaces": null,
     "SpacesWithArea": null,
     "Intensity_kgCO2e_per_m2": null,
-    "AreaBasis": "no spaces: intensity missing"
+    "AreaBasis": "no spaces: intensity missing",
+    "Synthetic": true
   }
 ]
