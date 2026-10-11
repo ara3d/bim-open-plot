@@ -1,0 +1,15 @@
+{
+  "slug": "cost-by-storey-class",
+  "title": "Cost by storey and class: Base vs value-engineered",
+  "role": "Estimator",
+  "decision": "What does each storey cost by class under the base and the value-engineered rates, and what is still unpriced?",
+  "kinds": ["chart"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment elements with their class, type name, and storey" },
+    { "file": "/data/duplex/parameters.json", "provenance": "model", "note": "Duplex Apartment quantities: Area, Volume, and Length from PSet_Revit_Dimensions" },
+    { "file": "/data/duplex/relations.json", "provenance": "model", "note": "Duplex Apartment assemblies: stair flights, stringers, and railings that belong to a stair, the slab that belongs to the roof" },
+    { "file": "data/unit-rates.json", "provenance": "synthetic", "note": "Unit rates in USD per m², m³, m, or each for a Base and a value-engineered scenario, invented at a plausible order of magnitude for Chicago-area residential work; illustrative, not a priced bill" }
+  ],
+  "tags": ["cost", "estimating", "value-engineering", "storey"]
+}

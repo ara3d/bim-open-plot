@@ -1,0 +1,24 @@
+{
+  "currency": "USD",
+  "priceBase": "Installed rates (material and labour) for low-rise residential work in the Chicago area, third quarter of 2026, excluding overheads, profit, contingency, and tax.",
+  "note": "Illustrative unit rates invented for this demo at a plausible order of magnitude. They are not a priced bill of quantities and do not come from any cost database.",
+  "scenarios": {
+    "base": "Base: the specification as modelled.",
+    "ve": "Value-engineered (VE): the cheaper substitute named on each rate."
+  },
+  "rates": [
+    { "item": "Exterior wall, brick on block", "ifcClasses": ["IFCWALL", "IFCWALLSTANDARDCASE"], "typePattern": "^Basic Wall:Exterior", "measure": "Area", "unit": "m²", "base": 410, "ve": 345, "veChange": "thin brick veneer on steel stud" },
+    { "item": "Interior partition, stud and gypsum", "ifcClasses": ["IFCWALL", "IFCWALLSTANDARDCASE"], "typePattern": "^Basic Wall:Interior", "measure": "Area", "unit": "m²", "base": 105, "ve": 88, "veChange": "25-gauge studs at 600 mm centres" },
+    { "item": "Party wall, CMU", "ifcClasses": ["IFCWALL", "IFCWALLSTANDARDCASE"], "typePattern": "^Basic Wall:Party Wall", "measure": "Area", "unit": "m²", "base": 235, "ve": 210, "veChange": "lightweight block" },
+    { "item": "Structural floor (slab on grade, wood joist floor)", "ifcClasses": ["IFCSLAB"], "typePattern": "^Floor:.*(Slab on Grade|Wood Joist)", "measure": "Area", "unit": "m²", "base": 145, "ve": 128, "veChange": "reduced slab reinforcement, OSB subfloor" },
+    { "item": "Floor finish (wood, ceramic tile)", "ifcClasses": ["IFCSLAB"], "typePattern": "^Floor:Finish Floor", "measure": "Area", "unit": "m²", "base": 118, "ve": 82, "veChange": "luxury vinyl plank in place of wood and tile" },
+    { "item": "Ceiling, gypsum board", "ifcClasses": ["IFCCOVERING"], "typePattern": ".*", "measure": "Area", "unit": "m²", "base": 72, "ve": 60, "veChange": "level 3 finish in place of level 4" },
+    { "item": "Door, glazed", "ifcClasses": ["IFCDOOR"], "typePattern": "Glass", "measure": "Count", "unit": "each", "base": 2900, "ve": 2350, "veChange": "standard hardware set" },
+    { "item": "Door, flush", "ifcClasses": ["IFCDOOR"], "typePattern": "Flush", "measure": "Count", "unit": "each", "base": 1350, "ve": 1080, "veChange": "hollow-core leaf for interior doors" },
+    { "item": "Window", "ifcClasses": ["IFCWINDOW"], "typePattern": ".*", "measure": "Count", "unit": "each", "base": 1750, "ve": 1400, "veChange": "vinyl frames in place of aluminium-clad wood" },
+    { "item": "Furniture and casework", "ifcClasses": ["IFCFURNISHINGELEMENT"], "typePattern": ".*", "measure": "Count", "unit": "each", "base": 1100, "ve": 820, "veChange": "stock casework in place of custom" },
+    { "item": "Stair, with flights, stringers, and railings", "ifcClasses": ["IFCSTAIR"], "typePattern": ".*", "measure": "Count", "unit": "each", "base": 11500, "ve": 9800, "veChange": "prefabricated stair kit" },
+    { "item": "Strip footing, reinforced concrete", "ifcClasses": ["IFCFOOTING"], "typePattern": ".*", "measure": "Volume", "unit": "m³", "base": 430, "ve": 395, "veChange": "optimised reinforcement" },
+    { "item": "Steel beam, wide flange", "ifcClasses": ["IFCBEAM"], "typePattern": "Wide Flange", "measure": "Length", "unit": "m", "base": 310, "ve": 285, "veChange": "lighter section where deflection allows" }
+  ]
+}
