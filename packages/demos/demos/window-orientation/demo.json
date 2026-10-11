@@ -1,0 +1,14 @@
+{
+  "slug": "window-orientation",
+  "title": "Window area by orientation",
+  "role": "Energy analyst",
+  "decision": "How much window area faces each compass direction, and what is the window-to-wall ratio per facade?",
+  "kinds": ["chart"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment windows and walls with their storey" },
+    { "file": "/data/duplex/parameters.json", "provenance": "model", "note": "Duplex Apartment window width and height, wall area and Revit wall Function (exterior or not)" },
+    { "file": "/data/duplex/bounds.json", "provenance": "model", "note": "Duplex Apartment element boxes in metres, from which each window's and wall's facing is inferred" }
+  ],
+  "tags": ["windows", "orientation", "energy", "facade"]
+}
