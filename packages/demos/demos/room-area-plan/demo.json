@@ -1,0 +1,14 @@
+{
+  "slug": "room-area-plan",
+  "title": "Room areas on the floor plan",
+  "role": "Facility manager",
+  "decision": "Where is each room, and how large is it?",
+  "kinds": ["drawing"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment entities with their storey" },
+    { "file": "/data/duplex/parameters.json", "provenance": "model", "note": "Duplex Apartment room Area, Number, and name, and storey elevations" },
+    { "file": "/data/duplex/bounds.json", "provenance": "model", "note": "Duplex Apartment bounding boxes for rooms, walls, and doors" }
+  ],
+  "tags": ["floor-plan", "heatmap", "area", "rooms"]
+}
