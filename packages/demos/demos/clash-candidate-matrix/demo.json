@@ -1,0 +1,14 @@
+{
+  "slug": "clash-candidate-matrix",
+  "title": "Clash candidates by class pair",
+  "role": "BIM coordinator",
+  "decision": "Which class pairs overlap most, per storey, so the clash meeting starts in the right place?",
+  "kinds": ["chart", "drawing"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment entities with their IFC class and storey" },
+    { "file": "/data/duplex/bounds.json", "provenance": "model", "note": "Duplex Apartment axis-aligned bounding boxes in metres, one per element; every overlap is tested between these boxes" },
+    { "file": "/data/duplex/relations.json", "provenance": "model", "note": "Duplex Apartment MemberOf relations, used to leave out an assembly (the roof) whose part carries the same box" }
+  ],
+  "tags": ["clash", "coordination", "heatmap", "floor-plan"]
+}
