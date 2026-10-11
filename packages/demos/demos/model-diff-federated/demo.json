@@ -1,0 +1,14 @@
+{
+  "slug": "model-diff-federated",
+  "title": "What federation adds, class by class",
+  "role": "BIM manager",
+  "decision": "What does the federated model add over the architecture model, per class, and does anything in the architecture model go missing?",
+  "kinds": ["chart"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment architecture model (duplex.ifc): every IFC product with its class and STEP id" },
+    { "file": "/models/duplex-federated.bos", "provenance": "model", "note": "Duplex Apartment federated model: architecture, MEP, electrical, and rooms and spaces files in one BOS, each kept as its own document" },
+    { "file": "main.ts", "provenance": "derived", "note": "The comparison is computed by this demo's main.ts on every load (counts per upper-cased class, STEP ids matched inside the architecture document); no file stores it" }
+  ],
+  "tags": ["federation", "model-diff", "classes", "model-quality"]
+}
