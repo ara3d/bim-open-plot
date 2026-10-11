@@ -1,0 +1,13 @@
+{
+  "slug": "egress-hops-plan",
+  "title": "Connections to an exit, room by room",
+  "role": "Fire engineer",
+  "decision": "How many doors must each room pass through to reach an exit?",
+  "kinds": ["drawing", "chart"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment entities with their storey, joined to the boxes by STEP id" },
+    { "file": "/data/duplex/bounds.json", "provenance": "model", "note": "Duplex Apartment axis-aligned bounding boxes of spaces, doors, and stair flights, from ifc_bounds" }
+  ],
+  "tags": ["egress", "floor-plan", "doors", "fire"]
+}
