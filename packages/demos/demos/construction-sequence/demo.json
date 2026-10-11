@@ -1,0 +1,14 @@
+{
+  "slug": "construction-sequence",
+  "title": "Construction sequence",
+  "role": "Project manager",
+  "decision": "Is the finishing sequence on the critical path, and what is built by which week?",
+  "kinds": ["chart", "scene3d"],
+  "model": "duplex",
+  "data": [
+    { "file": "data/schedule.json", "provenance": "synthetic", "note": "Invented by a fixed rule over the real element list: one activity per storey and trade, lasting ceil(elements / crew rate per week), linked in building order (structure storey by storey, windows and doors after the roof, coverings, then furniture, one crew per finishing trade moving up), timed by the critical path method; each element finishes in a week of its activity in STEP id order" },
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment elements with their class and storey, the input the schedule rule reads" },
+    { "file": "/models/duplex-federated.bos", "provenance": "model", "note": "Duplex Apartment federated model, coloured by build week by STEP id" }
+  ],
+  "tags": ["schedule", "4d", "gantt", "critical-path", "3d"]
+}
