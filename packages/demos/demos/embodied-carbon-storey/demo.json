@@ -1,0 +1,16 @@
+{
+  "slug": "embodied-carbon-storey",
+  "title": "Embodied carbon by storey and material",
+  "role": "Sustainability lead",
+  "decision": "Which storey and which material family to target for embodied-carbon cuts?",
+  "kinds": ["chart", "scene3d"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment entities with their storey and type name" },
+    { "file": "/data/duplex/parameters.json", "provenance": "model", "note": "Duplex Apartment PSet_Revit_Dimensions Volume (m³) and storey elevations" },
+    { "file": "/data/duplex/relations.json", "provenance": "model", "note": "Duplex Apartment element-to-material links (HasLayer, HasMaterial)" },
+    { "file": "data/carbon-factors.json", "provenance": "synthetic", "note": "Carbon factors per material family (kgCO2e/m³), illustrative values sized like generic entries in an EPD database, not taken from any EPD" },
+    { "file": "/models/duplex-federated.bos", "provenance": "model", "note": "Duplex Apartment federated model for the 3D view" }
+  ],
+  "tags": ["carbon", "sustainability", "heatmap", "3d", "storey"]
+}

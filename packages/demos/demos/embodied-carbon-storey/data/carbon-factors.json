@@ -1,0 +1,19 @@
+{
+  "provenance": "synthetic",
+  "unit": "kgCO2e per m³",
+  "scope": "A1-A3 (product stage, cradle to gate); biogenic carbon in timber not subtracted",
+  "source": "Illustrative values of the size an EPD (Environmental Product Declaration) database lists for generic products, such as the ICE inventory or EC3; not taken from any one EPD and not for a real assessment.",
+  "matching": "Families are tried in the order listed. An element takes the first family whose keyword appears as a whole word in its type name; failing that, in its material names in layer order, skipping cavity layers (air spaces and stud layers, which are mostly void). An element that matches no family has no factor.",
+  "cavityKeywords": ["air", "stud layer"],
+  "families": [
+    {"family": "brick", "label": "Brick", "factor": 400, "keywords": ["brick"], "note": "fired clay brick, about 1,900 kg/m³ at 0.21 kgCO2e/kg"},
+    {"family": "masonry", "label": "CMU / masonry", "factor": 190, "keywords": ["cmu", "block"], "note": "concrete masonry units (CMU, concrete block), about 2,000 kg/m³ at 0.095 kgCO2e/kg"},
+    {"family": "concrete", "label": "Concrete", "factor": 300, "keywords": ["concrete"], "note": "cast-in-place concrete around 30 MPa, about 2,400 kg/m³ at 0.125 kgCO2e/kg"},
+    {"family": "timber", "label": "Timber", "factor": 130, "keywords": ["wood", "timber", "lumber", "plywood"], "note": "softwood lumber and plywood, about 500 kg/m³ at 0.26 kgCO2e/kg"},
+    {"family": "steel", "label": "Steel", "factor": 12000, "keywords": ["steel", "metal", "wide flange"], "note": "hot-rolled sections, 7,850 kg/m³ at 1.55 kgCO2e/kg"},
+    {"family": "gypsum", "label": "Gypsum", "factor": 290, "keywords": ["gypsum", "plasterboard"], "note": "gypsum board, about 750 kg/m³ at 0.39 kgCO2e/kg"},
+    {"family": "insulation", "label": "Insulation", "factor": 80, "keywords": ["insulation"], "note": "rigid and semi-rigid boards, about 30 kg/m³ at 2.7 kgCO2e/kg"},
+    {"family": "glass", "label": "Glass", "factor": 3600, "keywords": ["glass", "glazing"], "note": "float glass, 2,500 kg/m³ at 1.44 kgCO2e/kg"},
+    {"family": "generic", "label": "Generic", "factor": 250, "keywords": ["generic"], "note": "a placeholder for authoring-tool types named Generic, whose material is undecided"}
+  ]
+}
