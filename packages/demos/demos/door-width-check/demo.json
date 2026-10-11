@@ -1,0 +1,14 @@
+{
+  "slug": "door-width-check",
+  "title": "Door width check",
+  "role": "Accessibility reviewer",
+  "decision": "Which doors fall below an 850 mm clear width, and where are they?",
+  "kinds": ["chart", "drawing"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment doors and spaces with their storey" },
+    { "file": "/data/duplex/parameters.json", "provenance": "model", "note": "Duplex Apartment door widths (Ifc:OverallWidth, in metres)" },
+    { "file": "/data/duplex/bounds.json", "provenance": "model", "note": "Duplex Apartment bounding boxes, in metres, for the plans" }
+  ],
+  "tags": ["doors", "accessibility", "floor-plan", "check"]
+}
