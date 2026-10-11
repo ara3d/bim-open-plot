@@ -1,0 +1,18 @@
+{
+  "slug": "installed-vs-planned",
+  "title": "Installed vs planned",
+  "role": "Site superintendent",
+  "decision": "What is installed per storey against the plan this week, and where are we behind?",
+  "kinds": ["chart", "scene3d"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment elements with their class, storey, STEP id, and GlobalId" },
+    {
+      "file": "data/events.json",
+      "provenance": "synthetic",
+      "note": "Install events invented by a rule: a 15-week plan by storey and class in build order (footings, slabs, walls and frame, roof, windows and doors, coverings, furniture), elements spread over each activity in STEP id order, then a delay per activity (Level 2 walls and frame, the roof, and later Level 2 and roof work 2 weeks late, Level 2 slabs 1 week late, Level 1 windows, doors, and coverings 1 week early); status at week 9"
+    },
+    { "file": "/models/duplex-federated.bos", "provenance": "model", "note": "Duplex Apartment federated model for the 3D view, matched to the events by STEP id" }
+  ],
+  "tags": ["progress", "schedule", "s-curve", "3d", "site"]
+}
