@@ -1,0 +1,13 @@
+{
+  "slug": "_template",
+  "title": "Rooms by storey",
+  "role": "Architect",
+  "decision": "Which storey carries the most floor area, and how is it split between rooms?",
+  "kinds": ["chart"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment entities with their storey" },
+    { "file": "/data/duplex/parameters.json", "provenance": "model", "note": "Duplex Apartment property and quantity values" }
+  ],
+  "tags": ["area", "storey"]
+}

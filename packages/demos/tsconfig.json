@@ -1,0 +1,28 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "types": [
+      "vite/client",
+      "node"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@bim-open-viewer/core": [
+        "../../deps/bim-open-viewer/packages/core/dist/index.d.ts"
+      ],
+      "@bim-open-viewer/*": [
+        "../../deps/bim-open-viewer/packages/*/src/index.ts"
+      ],
+      "three": [
+        "../../deps/bim-open-viewer/node_modules/@types/three"
+      ]
+    }
+  },
+  "include": [
+    "src",
+    "demos",
+    "test",
+    "scripts"
+  ]
+}

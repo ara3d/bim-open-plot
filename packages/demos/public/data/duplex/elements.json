@@ -1,0 +1,296 @@
+{"EntityIndex":4323,"StepId":36686,"GlobalId":"2OrWItJ6zAwBNp0OUxK_l8","Name":"M_W-Wide Flange:W310X60:W310X60:207325","Category":"IFCBEAM","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":4377,"StepId":36892,"GlobalId":"2OrWItJ6zAwBNp0OUxK$8W","Name":"M_W-Wide Flange:W410X60:W410X60:208949","Category":"IFCBEAM","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":4421,"StepId":37065,"GlobalId":"2OrWItJ6zAwBNp0OUxK$Bq","Name":"M_W-Wide Flange:W410X60:W410X60:209121","Category":"IFCBEAM","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4465,"StepId":37195,"GlobalId":"2OrWItJ6zAwBNp0OUxK$CR","Name":"M_W-Wide Flange:W410X60:W410X60:209166","Category":"IFCBEAM","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4509,"StepId":37325,"GlobalId":"2OrWItJ6zAwBNp0OUxK$Dv","Name":"M_W-Wide Flange:W310X60:W310X60:209260","Category":"IFCBEAM","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":4553,"StepId":37456,"GlobalId":"2OrWItJ6zAwBNp0OUxK$Du","Name":"M_W-Wide Flange:W410X60:W410X60:209261","Category":"IFCBEAM","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":4597,"StepId":37586,"GlobalId":"2OrWItJ6zAwBNp0OUxK$Dx","Name":"M_W-Wide Flange:W410X60:W410X60:209262","Category":"IFCBEAM","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4641,"StepId":37716,"GlobalId":"2OrWItJ6zAwBNp0OUxK$Dw","Name":"M_W-Wide Flange:W410X60:W410X60:209263","Category":"IFCBEAM","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4705,"StepId":36,"GlobalId":"1xS3BCk291UvhgP2a6eflK","Name":"#36","Category":"IFCBUILDING","Type":null,"StoreyName":null}
+{"EntityIndex":133,"StepId":39,"GlobalId":"1xS3BCk291UvhgP2dvNMKI","Name":"Level 1","Category":"IFCBUILDINGSTOREY","Type":null,"StoreyName":null}
+{"EntityIndex":134,"StepId":43,"GlobalId":"1xS3BCk291UvhgP2dvNMQJ","Name":"Level 2","Category":"IFCBUILDINGSTOREY","Type":null,"StoreyName":null}
+{"EntityIndex":135,"StepId":47,"GlobalId":"1xS3BCk291UvhgP2dvNsgp","Name":"T/FDN","Category":"IFCBUILDINGSTOREY","Type":null,"StoreyName":null}
+{"EntityIndex":136,"StepId":51,"GlobalId":"1xS3BCk291UvhgP2dvNtSE","Name":"Roof","Category":"IFCBUILDINGSTOREY","Type":null,"StoreyName":null}
+{"EntityIndex":3534,"StepId":23671,"GlobalId":"3bXiCStxP6Fgxdej$yc5T8","Name":"Compound Ceiling:Gypsum Board:187149","Category":"IFCCOVERING","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3541,"StepId":23768,"GlobalId":"3bXiCStxP6Fgxdej$yc503","Name":"Compound Ceiling:Gypsum Board:187462","Category":"IFCCOVERING","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3545,"StepId":23826,"GlobalId":"3bXiCStxP6Fgxdej$yc50B","Name":"Compound Ceiling:Gypsum Board:187470","Category":"IFCCOVERING","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3549,"StepId":23884,"GlobalId":"3bXiCStxP6Fgxdej$yc50U","Name":"Compound Ceiling:Gypsum Board:187483","Category":"IFCCOVERING","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3553,"StepId":23992,"GlobalId":"3bXiCStxP6Fgxdej$yc50n","Name":"Compound Ceiling:Gypsum Board:187508","Category":"IFCCOVERING","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3557,"StepId":24060,"GlobalId":"3bXiCStxP6Fgxdej$yc52o","Name":"Compound Ceiling:Gypsum Board:187639","Category":"IFCCOVERING","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3561,"StepId":24128,"GlobalId":"3bXiCStxP6Fgxdej$yc554","Name":"Compound Ceiling:Gypsum Board:187649","Category":"IFCCOVERING","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3565,"StepId":24186,"GlobalId":"3bXiCStxP6Fgxdej$yc55E","Name":"Compound Ceiling:Gypsum Board:187659","Category":"IFCCOVERING","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3571,"StepId":24268,"GlobalId":"3bXiCStxP6Fgxdej$yc55M","Name":"Compound Ceiling:Gypsum Board:187667","Category":"IFCCOVERING","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3575,"StepId":24326,"GlobalId":"3bXiCStxP6Fgxdej$yc55U","Name":"Compound Ceiling:Gypsum Board:187675","Category":"IFCCOVERING","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3581,"StepId":24408,"GlobalId":"3bXiCStxP6Fgxdej$yc55c","Name":"Compound Ceiling:Gypsum Board:187683","Category":"IFCCOVERING","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3585,"StepId":24476,"GlobalId":"3bXiCStxP6Fgxdej$yc55k","Name":"Compound Ceiling:Gypsum Board:187691","Category":"IFCCOVERING","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3589,"StepId":24544,"GlobalId":"3bXiCStxP6Fgxdej$yc55m","Name":"Compound Ceiling:Gypsum Board:187701","Category":"IFCCOVERING","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":1796,"StepId":6652,"GlobalId":"1hOSvn6df7F8_7GcBWlRGQ","Name":"M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146596","Category":"IFCDOOR","Type":"1250mm x 2010mm","StoreyName":"Level 1"}
+{"EntityIndex":1802,"StepId":6757,"GlobalId":"1hOSvn6df7F8_7GcBWlRH8","Name":"M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146678","Category":"IFCDOOR","Type":"1250mm x 2010mm","StoreyName":"Level 1"}
+{"EntityIndex":2034,"StepId":8066,"GlobalId":"1hOSvn6df7F8_7GcBWlS8Z","Name":"M_Single-Flush:0762 x 2032mm:0762 x 2032mm:150173","Category":"IFCDOOR","Type":"0762 x 2032mm","StoreyName":"Level 1"}
+{"EntityIndex":2041,"StepId":8169,"GlobalId":"1hOSvn6df7F8_7GcBWlS9F","Name":"M_Single-Flush:0762 x 2032mm:0762 x 2032mm:150257","Category":"IFCDOOR","Type":"0762 x 2032mm","StoreyName":"Level 1"}
+{"EntityIndex":2066,"StepId":8283,"GlobalId":"1hOSvn6df7F8_7GcBWlSFK","Name":"M_Single-Flush:0864 x 2032mm:0864 x 2032mm:150378","Category":"IFCDOOR","Type":"0864 x 2032mm","StoreyName":"Level 2"}
+{"EntityIndex":2073,"StepId":8386,"GlobalId":"1hOSvn6df7F8_7GcBWlSDm","Name":"M_Single-Flush:0864 x 2032mm:0864 x 2032mm:150478","Category":"IFCDOOR","Type":"0864 x 2032mm","StoreyName":"Level 2"}
+{"EntityIndex":2745,"StepId":15962,"GlobalId":"2OBrcmyk58NupXoVOHUuXp","Name":"M_Single-Flush:0864 x 2032mm:0864 x 2032mm:159734","Category":"IFCDOOR","Type":"0864 x 2032mm","StoreyName":"Level 2"}
+{"EntityIndex":2752,"StepId":16013,"GlobalId":"2OBrcmyk58NupXoVOHUvVV","Name":"M_Single-Flush:0864 x 2032mm:0864 x 2032mm:159834","Category":"IFCDOOR","Type":"0864 x 2032mm","StoreyName":"Level 2"}
+{"EntityIndex":2759,"StepId":16064,"GlobalId":"2OBrcmyk58NupXoVOHUvR4","Name":"M_Single-Flush:0864 x 2032mm:0864 x 2032mm:160065","Category":"IFCDOOR","Type":"0864 x 2032mm","StoreyName":"Level 2"}
+{"EntityIndex":2766,"StepId":16115,"GlobalId":"2OBrcmyk58NupXoVOHUvPL","Name":"M_Single-Flush:0864 x 2032mm:0864 x 2032mm:160208","Category":"IFCDOOR","Type":"0864 x 2032mm","StoreyName":"Level 2"}
+{"EntityIndex":3335,"StepId":21821,"GlobalId":"1s1jVhK8z0pgKYcr9jt781","Name":"M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171853","Category":"IFCDOOR","Type":"0813 x 2420mm","StoreyName":"Level 1"}
+{"EntityIndex":3342,"StepId":21929,"GlobalId":"1s1jVhK8z0pgKYcr9jt7AB","Name":"M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171975","Category":"IFCDOOR","Type":"0813 x 2420mm","StoreyName":"Level 1"}
+{"EntityIndex":4205,"StepId":35318,"GlobalId":"1aj$VJZFn2TxepZUBcKp$i","Name":"M_Single-Flush:0762 x 2032mm:0762 x 2032mm:203720","Category":"IFCDOOR","Type":"0762 x 2032mm","StoreyName":"Level 2"}
+{"EntityIndex":4217,"StepId":35413,"GlobalId":"1aj$VJZFn2TxepZUBcKpac","Name":"M_Single-Flush:0762 x 2032mm:0762 x 2032mm:204034","Category":"IFCDOOR","Type":"0762 x 2032mm","StoreyName":"Level 2"}
+{"EntityIndex":3507,"StepId":23286,"GlobalId":"0kF45Qs8L9PAM9kmb1lT5d","Name":"Wall Foundation:Bearing Footing - 900 x 300:186596","Category":"IFCFOOTING","Type":null,"StoreyName":"T/FDN"}
+{"EntityIndex":3511,"StepId":23369,"GlobalId":"0kF45Qs8L9PAM9kmb1lT5l","Name":"Wall Foundation:Bearing Footing - 900 x 300:186604","Category":"IFCFOOTING","Type":null,"StoreyName":"T/FDN"}
+{"EntityIndex":3515,"StepId":23408,"GlobalId":"0kF45Qs8L9PAM9kmb1lT5t","Name":"Wall Foundation:Bearing Footing - 900 x 300:186612","Category":"IFCFOOTING","Type":null,"StoreyName":"T/FDN"}
+{"EntityIndex":3519,"StepId":23446,"GlobalId":"0kF45Qs8L9PAM9kmb1lT5$","Name":"Wall Foundation:Bearing Footing - 900 x 300:186620","Category":"IFCFOOTING","Type":null,"StoreyName":"T/FDN"}
+{"EntityIndex":3523,"StepId":23485,"GlobalId":"0kF45Qs8L9PAM9kmb1lT2B","Name":"Wall Foundation:Bearing Footing - 900 x 300:186632","Category":"IFCFOOTING","Type":null,"StoreyName":"T/FDN"}
+{"EntityIndex":3527,"StepId":23524,"GlobalId":"0kF45Qs8L9PAM9kmb1lT2N","Name":"Wall Foundation:Bearing Footing - 900 x 300:186644","Category":"IFCFOOTING","Type":null,"StoreyName":"T/FDN"}
+{"EntityIndex":3531,"StepId":23562,"GlobalId":"0kF45Qs8L9PAM9kmb1lT2Z","Name":"Wall Foundation:Bearing Footing - 900 x 300:186656","Category":"IFCFOOTING","Type":null,"StoreyName":"T/FDN"}
+{"EntityIndex":2561,"StepId":12574,"GlobalId":"0wkEuT1wr1kOyafLY4vyu$","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:157200","Category":"IFCFURNISHINGELEMENT","Type":"800 mm","StoreyName":"Level 2"}
+{"EntityIndex":2581,"StepId":12976,"GlobalId":"0wkEuT1wr1kOyafLY4vy_8","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:157607","Category":"IFCFURNISHINGELEMENT","Type":"800 mm","StoreyName":"Level 2"}
+{"EntityIndex":2601,"StepId":13331,"GlobalId":"0wkEuT1wr1kOyafLY4vy3H","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:157950","Category":"IFCFURNISHINGELEMENT","Type":"800 mm","StoreyName":"Level 2"}
+{"EntityIndex":2621,"StepId":13685,"GlobalId":"0wkEuT1wr1kOyafLY4vy3G","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:157951","Category":"IFCFURNISHINGELEMENT","Type":"800 mm","StoreyName":"Level 2"}
+{"EntityIndex":2641,"StepId":14040,"GlobalId":"0wkEuT1wr1kOyafLY4vy4m","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:157983","Category":"IFCFURNISHINGELEMENT","Type":"800 mm","StoreyName":"Level 2"}
+{"EntityIndex":2661,"StepId":14394,"GlobalId":"0wkEuT1wr1kOyafLY4vy4F","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:157984","Category":"IFCFURNISHINGELEMENT","Type":"800 mm","StoreyName":"Level 2"}
+{"EntityIndex":2681,"StepId":14749,"GlobalId":"0wkEuT1wr1kOyafLY4vy6l","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:158080","Category":"IFCFURNISHINGELEMENT","Type":"800 mm","StoreyName":"Level 2"}
+{"EntityIndex":2701,"StepId":15103,"GlobalId":"0wkEuT1wr1kOyafLY4vy6k","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:158081","Category":"IFCFURNISHINGELEMENT","Type":"800 mm","StoreyName":"Level 2"}
+{"EntityIndex":2712,"StepId":15463,"GlobalId":"0wkEuT1wr1kOyafLY4vyMO","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:159159","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2720,"StepId":15856,"GlobalId":"0wkEuT1wr1kOyafLY4vyOn","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:159262","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2768,"StepId":16149,"GlobalId":"2OBrcmyk58NupXoVOHUvGQ","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:160671","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2770,"StepId":16175,"GlobalId":"2OBrcmyk58NupXoVOHUvH8","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:160717","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2798,"StepId":16261,"GlobalId":"2OBrcmyk58NupXoVOHUv88","Name":"M_Counter Top w Sink Hole:600mm Depth:600mm Depth:161165","Category":"IFCFURNISHINGELEMENT","Type":"600mm Depth","StoreyName":"Level 1"}
+{"EntityIndex":2837,"StepId":16411,"GlobalId":"2OBrcmyk58NupXoVOHUv3h","Name":"M_Counter Top:600mm Depth:600mm Depth:161646","Category":"IFCFURNISHINGELEMENT","Type":"600mm Depth","StoreyName":"Level 1"}
+{"EntityIndex":2839,"StepId":16485,"GlobalId":"2OBrcmyk58NupXoVOHUvup","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162230","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2848,"StepId":16531,"GlobalId":"2OBrcmyk58NupXoVOHUvuo","Name":"M_Counter Top:600mm Depth:600mm Depth:162231","Category":"IFCFURNISHINGELEMENT","Type":"600mm Depth","StoreyName":"Level 1"}
+{"EntityIndex":2850,"StepId":16563,"GlobalId":"2OBrcmyk58NupXoVOHUvs2","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162311","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2852,"StepId":16589,"GlobalId":"2OBrcmyk58NupXoVOHUvsm","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162357","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2854,"StepId":16615,"GlobalId":"2OBrcmyk58NupXoVOHUvtA","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162383","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2856,"StepId":16641,"GlobalId":"2OBrcmyk58NupXoVOHUvqp","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162486","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2858,"StepId":16667,"GlobalId":"2OBrcmyk58NupXoVOHUvqo","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162487","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2860,"StepId":16693,"GlobalId":"2OBrcmyk58NupXoVOHUvqz","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162488","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2862,"StepId":16719,"GlobalId":"2OBrcmyk58NupXoVOHUvqy","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162489","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2887,"StepId":16802,"GlobalId":"2OBrcmyk58NupXoVOHUvq$","Name":"M_Counter Top w Sink Hole:600mm Depth:600mm Depth:162490","Category":"IFCFURNISHINGELEMENT","Type":"600mm Depth","StoreyName":"Level 1"}
+{"EntityIndex":2916,"StepId":16884,"GlobalId":"2OBrcmyk58NupXoVOHUvq_","Name":"M_Counter Top:600mm Depth:600mm Depth:162491","Category":"IFCFURNISHINGELEMENT","Type":"600mm Depth","StoreyName":"Level 1"}
+{"EntityIndex":2918,"StepId":16914,"GlobalId":"2OBrcmyk58NupXoVOHUvqu","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162493","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2920,"StepId":16940,"GlobalId":"2OBrcmyk58NupXoVOHUvqx","Name":"M_Counter Top:600mm Depth:600mm Depth:162494","Category":"IFCFURNISHINGELEMENT","Type":"600mm Depth","StoreyName":"Level 1"}
+{"EntityIndex":2922,"StepId":16971,"GlobalId":"2OBrcmyk58NupXoVOHUvqw","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162495","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2924,"StepId":16997,"GlobalId":"2OBrcmyk58NupXoVOHUvr5","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162496","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2926,"StepId":17023,"GlobalId":"2OBrcmyk58NupXoVOHUvr4","Name":"M_Base Cabinet-Double Door & 2 Drawer:1000mm:1000mm:162497","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":2950,"StepId":17341,"GlobalId":"2OBrcmyk58NupXoVOHUshs","Name":"M_Sofa:1830mm:1830mm:167283","Category":"IFCFURNISHINGELEMENT","Type":"1830mm","StoreyName":"Level 1"}
+{"EntityIndex":2953,"StepId":17409,"GlobalId":"2OBrcmyk58NupXoVOHUsc7","Name":"M_Sofa:1830mm:1830mm:167426","Category":"IFCFURNISHINGELEMENT","Type":"1830mm","StoreyName":"Level 1"}
+{"EntityIndex":2986,"StepId":17532,"GlobalId":"2OBrcmyk58NupXoVOHUsab","Name":"M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:167584","Category":"IFCFURNISHINGELEMENT","Type":"0610 x 0610 x 0610mm","StoreyName":"Level 1"}
+{"EntityIndex":2989,"StepId":17602,"GlobalId":"2OBrcmyk58NupXoVOHUsbY","Name":"M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:167655","Category":"IFCFURNISHINGELEMENT","Type":"0610 x 0610 x 0610mm","StoreyName":"Level 1"}
+{"EntityIndex":3014,"StepId":17716,"GlobalId":"2OBrcmyk58NupXoVOHUtVQ","Name":"M_Table-Coffee:0915 x 1830 x 0457mm:0915 x 1830 x 0457mm:168031","Category":"IFCFURNISHINGELEMENT","Type":"0915 x 1830 x 0457mm","StoreyName":"Level 1"}
+{"EntityIndex":3017,"StepId":17786,"GlobalId":"2OBrcmyk58NupXoVOHUtOy","Name":"M_Sofa:1830mm:1830mm:168377","Category":"IFCFURNISHINGELEMENT","Type":"1830mm","StoreyName":"Level 1"}
+{"EntityIndex":3020,"StepId":17815,"GlobalId":"2OBrcmyk58NupXoVOHUtO$","Name":"M_Sofa:1830mm:1830mm:168378","Category":"IFCFURNISHINGELEMENT","Type":"1830mm","StoreyName":"Level 1"}
+{"EntityIndex":3023,"StepId":17844,"GlobalId":"2OBrcmyk58NupXoVOHUtO_","Name":"M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:168379","Category":"IFCFURNISHINGELEMENT","Type":"0610 x 0610 x 0610mm","StoreyName":"Level 1"}
+{"EntityIndex":3026,"StepId":17873,"GlobalId":"2OBrcmyk58NupXoVOHUtOv","Name":"M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:168380","Category":"IFCFURNISHINGELEMENT","Type":"0610 x 0610 x 0610mm","StoreyName":"Level 1"}
+{"EntityIndex":3030,"StepId":17902,"GlobalId":"2OBrcmyk58NupXoVOHUtOu","Name":"M_Table-Coffee:0915 x 1830 x 0457mm:0915 x 1830 x 0457mm:168381","Category":"IFCFURNISHINGELEMENT","Type":"0915 x 1830 x 0457mm","StoreyName":"Level 1"}
+{"EntityIndex":3097,"StepId":19275,"GlobalId":"2OBrcmyk58NupXoVOHUtM4","Name":"M_Bed-Standard:1525 x 2007mm - Queen:1525 x 2007mm - Queen:168449","Category":"IFCFURNISHINGELEMENT","Type":"1525 x 2007mm - Queen","StoreyName":"Level 2"}
+{"EntityIndex":3161,"StepId":20657,"GlobalId":"2OBrcmyk58NupXoVOHUtI8","Name":"M_Bed-Standard:1981 x 2032mm - King:1981 x 2032mm - King:168717","Category":"IFCFURNISHINGELEMENT","Type":"1981 x 2032mm - King","StoreyName":"Level 2"}
+{"EntityIndex":3164,"StepId":20726,"GlobalId":"2OBrcmyk58NupXoVOHUtHN","Name":"M_Bed-Standard:1981 x 2032mm - King:1981 x 2032mm - King:168914","Category":"IFCFURNISHINGELEMENT","Type":"1981 x 2032mm - King","StoreyName":"Level 2"}
+{"EntityIndex":3167,"StepId":20755,"GlobalId":"2OBrcmyk58NupXoVOHUtEr","Name":"M_Bed-Standard:1525 x 2007mm - Queen:1525 x 2007mm - Queen:169008","Category":"IFCFURNISHINGELEMENT","Type":"1525 x 2007mm - Queen","StoreyName":"Level 2"}
+{"EntityIndex":3645,"StepId":26941,"GlobalId":"0iEHWY1$XA8eQeeULq4j7w","Name":"M_Upper Cabinet-Double Door-Wall:1000 mm:1000 mm:191401","Category":"IFCFURNISHINGELEMENT","Type":"1000 mm","StoreyName":"Level 1"}
+{"EntityIndex":3663,"StepId":29098,"GlobalId":"0iEHWY1$XA8eQeeULq4jOM","Name":"M_Upper Cabinet-Double Door-Wall:1000 mm:1000 mm:191557","Category":"IFCFURNISHINGELEMENT","Type":"1000 mm","StoreyName":"Level 1"}
+{"EntityIndex":3666,"StepId":29127,"GlobalId":"0iEHWY1$XA8eQeeULq4jQJ","Name":"M_Upper Cabinet-Double Door-Wall:1000 mm:1000 mm:191680","Category":"IFCFURNISHINGELEMENT","Type":"1000 mm","StoreyName":"Level 1"}
+{"EntityIndex":3685,"StepId":31241,"GlobalId":"0iEHWY1$XA8eQeeULq4jTB","Name":"M_Upper Cabinet-Double Door-Wall:1000mm:1000mm:191768","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":3688,"StepId":31313,"GlobalId":"0iEHWY1$XA8eQeeULq4jJA","Name":"M_Upper Cabinet-Double Door-Wall:1000 mm:1000 mm:192153","Category":"IFCFURNISHINGELEMENT","Type":"1000 mm","StoreyName":"Level 1"}
+{"EntityIndex":3691,"StepId":31342,"GlobalId":"0iEHWY1$XA8eQeeULq4jKO","Name":"M_Upper Cabinet-Double Door-Wall:1000 mm:1000 mm:192331","Category":"IFCFURNISHINGELEMENT","Type":"1000 mm","StoreyName":"Level 1"}
+{"EntityIndex":3694,"StepId":31371,"GlobalId":"0iEHWY1$XA8eQeeULq4jMl","Name":"M_Upper Cabinet-Double Door-Wall:1000 mm:1000 mm:192508","Category":"IFCFURNISHINGELEMENT","Type":"1000 mm","StoreyName":"Level 1"}
+{"EntityIndex":3698,"StepId":31400,"GlobalId":"0iEHWY1$XA8eQeeULq4ien","Name":"M_Upper Cabinet-Double Door-Wall:1000mm:1000mm:192610","Category":"IFCFURNISHINGELEMENT","Type":"1000mm","StoreyName":"Level 1"}
+{"EntityIndex":4237,"StepId":35783,"GlobalId":"2gRXFgjRn2HPE$YoDLX0mp","Name":"M_Vanity Cabinet-Double Door Sink Unit:650 x 450 mm:650 x 450 mm:204934","Category":"IFCFURNISHINGELEMENT","Type":"650 x 450 mm","StoreyName":"Level 2"}
+{"EntityIndex":4240,"StepId":35854,"GlobalId":"2gRXFgjRn2HPE$YoDLX0q2","Name":"M_Vanity Cabinet-Double Door Sink Unit:650 x 450 mm:650 x 450 mm:205239","Category":"IFCFURNISHINGELEMENT","Type":"650 x 450 mm","StoreyName":"Level 2"}
+{"EntityIndex":4248,"StepId":36125,"GlobalId":"2gRXFgjRn2HPE$YoDLX0rb","Name":"M_Vanity Cabinet-Double Door Sink Unit:650 x 450 mm:650 x 450 mm:205264","Category":"IFCFURNISHINGELEMENT","Type":"650 x 450 mm","StoreyName":"Level 2"}
+{"EntityIndex":4251,"StepId":36151,"GlobalId":"2gRXFgjRn2HPE$YoDLX0ra","Name":"M_Vanity Cabinet-Double Door Sink Unit:650 x 450 mm:650 x 450 mm:205265","Category":"IFCFURNISHINGELEMENT","Type":"650 x 450 mm","StoreyName":"Level 2"}
+{"EntityIndex":4260,"StepId":36423,"GlobalId":"2gRXFgjRn2HPE$YoDLX0vP","Name":"M_Vanity Cabinet-Double Door Sink Unit:450 x 450 mm:450 x 450 mm:205548","Category":"IFCFURNISHINGELEMENT","Type":"450 x 450 mm","StoreyName":"Level 1"}
+{"EntityIndex":4264,"StepId":36497,"GlobalId":"2kvhekJrnDjRw0CDkKW$UD","Name":"M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:206283","Category":"IFCFURNISHINGELEMENT","Type":"0610 x 0610 x 0610mm","StoreyName":"Level 2"}
+{"EntityIndex":4268,"StepId":36526,"GlobalId":"2kvhekJrnDjRw0CDkKW$JW","Name":"M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:206502","Category":"IFCFURNISHINGELEMENT","Type":"0610 x 0610 x 0610mm","StoreyName":"Level 2"}
+{"EntityIndex":4272,"StepId":36555,"GlobalId":"2kvhekJrnDjRw0CDkKW$KL","Name":"M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:206675","Category":"IFCFURNISHINGELEMENT","Type":"0610 x 0610 x 0610mm","StoreyName":"Level 2"}
+{"EntityIndex":4276,"StepId":36584,"GlobalId":"2kvhekJrnDjRw0CDkKW$fQ","Name":"M_Table-Coffee:0610 x 0610 x 0610mm:0610 x 0610 x 0610mm:206876","Category":"IFCFURNISHINGELEMENT","Type":"0610 x 0610 x 0610mm","StoreyName":"Level 2"}
+{"EntityIndex":2344,"StepId":9002,"GlobalId":"1gtrSK5QnDuxDwygd0EDGO","Name":"Stair:Residential - 200mm Max Riser 250mm Tread:151086:1","Category":"IFCMEMBER","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":2347,"StepId":9020,"GlobalId":"34qUFGjJzFKwVWpXe2dTPt","Name":"Stair:Residential - 200mm Max Riser 250mm Tread:151086:2","Category":"IFCMEMBER","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3978,"StepId":32096,"GlobalId":"01KzA4SPn5IOODwLEb5RNY","Name":"Stair:Residential - 200mm Max Riser 250mm Tread:198878:1","Category":"IFCMEMBER","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3981,"StepId":32115,"GlobalId":"37Fy90kSD2PvviizyM7EKl","Name":"Stair:Residential - 200mm Max Riser 250mm Tread:198878:2","Category":"IFCMEMBER","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":1717,"StepId":6293,"GlobalId":"1xS3BCk291UvhgP2dvNrrP","Name":"M_Fixed:4835mm x 2420mm:4835mm x 2420mm:145788:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":1763,"StepId":6517,"GlobalId":"1xS3BCk291UvhgP2dvNrv5","Name":"M_Fixed:4835mm x 2420mm:4835mm x 2420mm:146016:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":1769,"StepId":6569,"GlobalId":"1xS3BCk291UvhgP2dvNrY1","Name":"M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146596:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":1799,"StepId":6743,"GlobalId":"1xS3BCk291UvhgP2dvNrZJ","Name":"M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146678:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":1806,"StepId":6794,"GlobalId":"1xS3BCk291UvhgP2dvNrdW","Name":"M_Fixed:750mm x 2200mm:750mm x 2200mm:146885:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":1847,"StepId":7011,"GlobalId":"1xS3BCk291UvhgP2dvNrfE","Name":"M_Fixed:750mm x 2200mm:750mm x 2200mm:147051:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":1853,"StepId":7063,"GlobalId":"1xS3BCk291UvhgP2dvNoJ3","Name":"M_Fixed:2800mm x 2410mm:2800mm x 2410mm:147686:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":1893,"StepId":7280,"GlobalId":"1xS3BCk291UvhgP2dvNoO$","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:147994:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":1933,"StepId":7497,"GlobalId":"1xS3BCk291UvhgP2dvNo1Q","Name":"M_Casement:819mm x 759mm:819mm x 759mm:148607:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":1981,"StepId":7729,"GlobalId":"1xS3BCk291UvhgP2dvNo3N","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:148722:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":1987,"StepId":7781,"GlobalId":"1xS3BCk291UvhgP2dvNoCx","Name":"M_Fixed:2800mm x 2410mm:2800mm x 2410mm:149278:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":1993,"StepId":7833,"GlobalId":"1xS3BCk291UvhgP2dvNom4","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:149537:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":1999,"StepId":7885,"GlobalId":"1xS3BCk291UvhgP2dvNopD","Name":"M_Casement:819mm x 759mm:819mm x 759mm:149736:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2006,"StepId":7937,"GlobalId":"1xS3BCk291UvhgP2dvNos1","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:149924:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2013,"StepId":7989,"GlobalId":"1xS3BCk291UvhgP2dvNowu","Name":"M_Single-Flush:0762 x 2032mm:0762 x 2032mm:150173:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2038,"StepId":8155,"GlobalId":"1xS3BCk291UvhgP2dvNoxK","Name":"M_Single-Flush:0762 x 2032mm:0762 x 2032mm:150257:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2045,"StepId":8206,"GlobalId":"1xS3BCk291UvhgP2dvNozF","Name":"M_Single-Flush:0864 x 2032mm:0864 x 2032mm:150378:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2070,"StepId":8372,"GlobalId":"1xS3BCk291UvhgP2dvNo$h","Name":"M_Single-Flush:0864 x 2032mm:0864 x 2032mm:150478:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2564,"StepId":12583,"GlobalId":"1JMZUwOon6WAV1rBBORAVn","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:157200:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2584,"StepId":12985,"GlobalId":"0st2Ty2kP2i9GWVYN22HBn","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:157607:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2604,"StepId":13340,"GlobalId":"1ur9wqEhD1fgF0XSBVdztK","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:157950:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2624,"StepId":13694,"GlobalId":"2fQjX2SrTFrxFKC2cOmyZz","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:157951:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2644,"StepId":14049,"GlobalId":"3yrt06HiHCHQOnRKTWhuME","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:157983:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2664,"StepId":14403,"GlobalId":"1dqkh_grrAr8eEicMrPggp","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:157984:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2684,"StepId":14758,"GlobalId":"24EFH82h1DgeJVWlc35MMP","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:158080:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2704,"StepId":15112,"GlobalId":"2YwZmYlr9AiPDZRZmucxc5","Name":"M_Tall Cabinet-Single Door(2):800 mm:800 mm:158081:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2724,"StepId":15885,"GlobalId":"1xS3BCk291UvhgP2dvNmlJ","Name":"M_Single-Flush:0864 x 2032mm:0864 x 2032mm:159734:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2749,"StepId":15999,"GlobalId":"1xS3BCk291UvhgP2dvNnH$","Name":"M_Single-Flush:0864 x 2032mm:0864 x 2032mm:159834:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2756,"StepId":16050,"GlobalId":"1xS3BCk291UvhgP2dvNnLa","Name":"M_Single-Flush:0864 x 2032mm:0864 x 2032mm:160065:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2763,"StepId":16101,"GlobalId":"1xS3BCk291UvhgP2dvNnNr","Name":"M_Single-Flush:0864 x 2032mm:0864 x 2032mm:160208:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2824,"StepId":16306,"GlobalId":"1_czKmicP9SRkaew1L5q7Z","Name":"M_Counter Top w Sink Hole:600mm Depth:600mm Depth:161165:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":2913,"StepId":16847,"GlobalId":"3obae0iBn5i9Cv4Ub3eEXf","Name":"M_Counter Top w Sink Hole:600mm Depth:600mm Depth:162490:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3303,"StepId":21705,"GlobalId":"1xS3BCk291UvhgP2dvN$je","Name":"M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171853:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3339,"StepId":21915,"GlobalId":"1xS3BCk291UvhgP2dvN$lY","Name":"M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171975:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3345,"StepId":21966,"GlobalId":"1xS3BCk291UvhgP2dvNwHx","Name":"M_Fixed:2800mm x 2410mm:2800mm x 2410mm:180318:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3351,"StepId":22018,"GlobalId":"1xS3BCk291UvhgP2dvNwMI","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:180663:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3357,"StepId":22070,"GlobalId":"1xS3BCk291UvhgP2dvNwQb","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:180864:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3363,"StepId":22122,"GlobalId":"1xS3BCk291UvhgP2dvNwSd","Name":"M_Casement:819mm x 759mm:819mm x 759mm:180994:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3369,"StepId":22174,"GlobalId":"1xS3BCk291UvhgP2dvNwTD","Name":"M_Fixed:2800mm x 2410mm:2800mm x 2410mm:181096:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3375,"StepId":22226,"GlobalId":"1xS3BCk291UvhgP2dvNw00","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:181285:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3381,"StepId":22278,"GlobalId":"1xS3BCk291UvhgP2dvNw49","Name":"M_Casement:819mm x 759mm:819mm x 759mm:181548:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3387,"StepId":22330,"GlobalId":"1xS3BCk291UvhgP2dvNw5g","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:181583:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3394,"StepId":22382,"GlobalId":"1xS3BCk291UvhgP2dvNwAF","Name":"M_Fixed:750mm x 2200mm:750mm x 2200mm:181930:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3401,"StepId":22434,"GlobalId":"1xS3BCk291UvhgP2dvNwDm","Name":"M_Fixed:750mm x 2200mm:750mm x 2200mm:182101:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3480,"StepId":22506,"GlobalId":"1xS3BCk291UvhgP2dvNxVS","Name":"#22506","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3500,"StepId":22520,"GlobalId":"1xS3BCk291UvhgP2dvNx5J","Name":"#22520","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3422,"StepId":22533,"GlobalId":"3v9a8BKHj2mvcndWrD6JMo","Name":"Basic Roof:Live Roof over Wood Joist Flat Roof:184483:2","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":3426,"StepId":22546,"GlobalId":"0c3kWfbRLERxKStRVifSpJ","Name":"Basic Roof:Live Roof over Wood Joist Flat Roof:184483:3","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":4184,"StepId":35241,"GlobalId":"1xS3BCk291UvhgP2dvNd$j","Name":"M_Single-Flush:0762 x 2032mm:0762 x 2032mm:203720:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":4214,"StepId":35399,"GlobalId":"1xS3BCk291UvhgP2dvNdad","Name":"M_Single-Flush:0762 x 2032mm:0762 x 2032mm:204034:1","Category":"IFCOPENINGELEMENT","Type":null,"StoreyName":null}
+{"EntityIndex":4720,"StepId":34,"GlobalId":"1xS3BCk291UvhgP2a6eflL","Name":"0001","Category":"IFCPROJECT","Type":null,"StoreyName":null}
+{"EntityIndex":2351,"StepId":9326,"GlobalId":"0wkEuT1wr1kOyafLY4v_PL","Name":"Railing:900mm Handrail Only:151162","Category":"IFCRAILING","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":2541,"StepId":12184,"GlobalId":"0wkEuT1wr1kOyafLY4v_PH","Name":"Railing:1100mm Guard Rail:151166","Category":"IFCRAILING","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3985,"StepId":32346,"GlobalId":"21ldoMpbP4VfsJ0XGY_34P","Name":"Railing:900mm Handrail Only:198880","Category":"IFCRAILING","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":4175,"StepId":35163,"GlobalId":"21ldoMpbP4VfsJ0XGY_335","Name":"Railing:1100mm Guard Rail:198972","Category":"IFCRAILING","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3405,"StepId":22475,"GlobalId":"0jf0rYHfX3RAB3bSIRjmxl","Name":"Basic Roof:Live Roof over Wood Joist Flat Roof:184483","Category":"IFCROOF","Type":null,"StoreyName":"Roof"}
+{"EntityIndex":4706,"StepId":38274,"GlobalId":"1xS3BCk291UvhgP2a6eflN","Name":"Default","Category":"IFCSITE","Type":null,"StoreyName":null}
+{"EntityIndex":1589,"StepId":5165,"GlobalId":"2O2Fr$t4X7Zf8NOew3FK4F","Name":"Floor:127mm Slab on Grade:141232","Category":"IFCSLAB","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":1602,"StepId":5267,"GlobalId":"2O2Fr$t4X7Zf8NOew3FKcz","Name":"Floor:127mm Slab on Grade:143106","Category":"IFCSLAB","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":1688,"StepId":6132,"GlobalId":"1hOSvn6df7F8_7GcBWlRqU","Name":"Floor:Residential - Wood Joist with Subflooring:144800","Category":"IFCSLAB","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":1713,"StepId":6247,"GlobalId":"1hOSvn6df7F8_7GcBWlRrM","Name":"Floor:Residential - Wood Joist with Subflooring:144872","Category":"IFCSLAB","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3170,"StepId":20792,"GlobalId":"2OBrcmyk58NupXoVOHUtC0","Name":"Floor:Finish Floor - Wood:169093","Category":"IFCSLAB","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3192,"StepId":20903,"GlobalId":"2OBrcmyk58NupXoVOHUtDX","Name":"Floor:Finish Floor - Wood:169188","Category":"IFCSLAB","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3196,"StepId":20958,"GlobalId":"2OBrcmyk58NupXoVOHUtBP","Name":"Floor:Finish Floor - Wood:169308","Category":"IFCSLAB","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3200,"StepId":21013,"GlobalId":"2OBrcmyk58NupXoVOHUt8F","Name":"Floor:Finish Floor - Wood:169354","Category":"IFCSLAB","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3204,"StepId":21080,"GlobalId":"2OBrcmyk58NupXoVOHUt8s","Name":"Floor:Finish Floor - Wood:169395","Category":"IFCSLAB","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3208,"StepId":21147,"GlobalId":"2OBrcmyk58NupXoVOHUt5W","Name":"Floor:Finish Floor - Wood:169701","Category":"IFCSLAB","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3213,"StepId":21195,"GlobalId":"2OBrcmyk58NupXoVOHUt2f","Name":"Floor:Finish Floor - Ceramic Tile:169772","Category":"IFCSLAB","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3270,"StepId":21336,"GlobalId":"2OBrcmyk58NupXoVOHUt0F","Name":"Floor:Finish Floor - Ceramic Tile:169866","Category":"IFCSLAB","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3274,"StepId":21401,"GlobalId":"2OBrcmyk58NupXoVOHUtxr","Name":"Floor:Finish Floor - Wood:170352","Category":"IFCSLAB","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3279,"StepId":21449,"GlobalId":"2OBrcmyk58NupXoVOHUtoa","Name":"Floor:Finish Floor - Ceramic Tile:170785","Category":"IFCSLAB","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3284,"StepId":21497,"GlobalId":"2OBrcmyk58NupXoVOHUtjR","Name":"Floor:Finish Floor - Ceramic Tile:171230","Category":"IFCSLAB","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3289,"StepId":21545,"GlobalId":"2OBrcmyk58NupXoVOHUtju","Name":"Floor:Finish Floor - Ceramic Tile:171261","Category":"IFCSLAB","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3293,"StepId":21610,"GlobalId":"2OBrcmyk58NupXoVOHUtgP","Name":"Floor:Finish Floor - Wood:171292","Category":"IFCSLAB","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3298,"StepId":21658,"GlobalId":"2OBrcmyk58NupXoVOHUten","Name":"Floor:Finish Floor - Ceramic Tile:171444","Category":"IFCSLAB","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3412,"StepId":22492,"GlobalId":"3ThA22djr8AQQ9eQMA5s7I","Name":"Basic Roof:Live Roof over Wood Joist Flat Roof:184483","Category":"IFCSLAB","Type":null,"StoreyName":"Roof"}
+{"EntityIndex":4645,"StepId":37777,"GlobalId":"1CZILmCaHETO8tf3SgGEWh","Name":"Floor:150mm Exterior Slab on Grade:216507","Category":"IFCSLAB","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":4652,"StepId":37864,"GlobalId":"1CZILmCaHETO8tf3SgGEXu","Name":"Floor:150mm Exterior Slab on Grade:216552","Category":"IFCSLAB","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3029,"StepId":67,"GlobalId":"0BTBFw6f90Nfh9rP1dlXr2","Name":"Living Room","Category":"IFCSPACE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3684,"StepId":212,"GlobalId":"0BTBFw6f90Nfh9rP1dlXr$","Name":"Kitchen","Category":"IFCSPACE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":4259,"StepId":355,"GlobalId":"0BTBFw6f90Nfh9rP1dlXru","Name":"Bathroom 1","Category":"IFCSPACE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":275,"StepId":514,"GlobalId":"0BTBFw6f90Nfh9rP1dlXrr","Name":"Foyer","Category":"IFCSPACE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":351,"StepId":819,"GlobalId":"0BTBFw6f90Nfh9rP1dlXri","Name":"Hallway","Category":"IFCSPACE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4250,"StepId":1059,"GlobalId":"0BTBFw6f90Nfh9rP1dlXre","Name":"Bathroom 2","Category":"IFCSPACE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4275,"StepId":1218,"GlobalId":"0BTBFw6f90Nfh9rP1dlXrb","Name":"Bedroom 2","Category":"IFCSPACE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4267,"StepId":1442,"GlobalId":"0BTBFw6f90Nfh9rP1dlXrc","Name":"Bedroom 1","Category":"IFCSPACE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3013,"StepId":1627,"GlobalId":"0BTBFw6f90Nfh9rP1dl_CZ","Name":"Living Room","Category":"IFCSPACE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3697,"StepId":1782,"GlobalId":"0BTBFw6f90Nfh9rP1dl_3S","Name":"Kitchen","Category":"IFCSPACE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":717,"StepId":1928,"GlobalId":"0BTBFw6f90Nfh9rP1dl_3P","Name":"Bathroom 1","Category":"IFCSPACE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":768,"StepId":2108,"GlobalId":"0BTBFw6f90Nfh9rP1dl_3Q","Name":"Foyer","Category":"IFCSPACE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":844,"StepId":2412,"GlobalId":"0BTBFw6f90Nfh9rP1dl_3G","Name":"Hallway","Category":"IFCSPACE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4239,"StepId":2637,"GlobalId":"0BTBFw6f90Nfh9rP1dl_3C","Name":"Bathroom 2","Category":"IFCSPACE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4263,"StepId":2789,"GlobalId":"0BTBFw6f90Nfh9rP1dl_39","Name":"Bedroom 2","Category":"IFCSPACE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4271,"StepId":3013,"GlobalId":"0BTBFw6f90Nfh9rP1dl_3A","Name":"Bedroom 1","Category":"IFCSPACE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":1104,"StepId":3197,"GlobalId":"2gRXFgjRn2HPE$YoDLX3FV","Name":"Utility","Category":"IFCSPACE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":1144,"StepId":3325,"GlobalId":"2gRXFgjRn2HPE$YoDLX3FC","Name":"Utility","Category":"IFCSPACE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":1179,"StepId":3456,"GlobalId":"10mjSDZJj9gPS2PrQaxa3z","Name":"Stair","Category":"IFCSPACE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":1214,"StepId":3586,"GlobalId":"10mjSDZJj9gPS2PrQaxa4o","Name":"Room","Category":"IFCSPACE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":1250,"StepId":3707,"GlobalId":"0pNy6pOyf7JPmXRLgxs3sW","Name":"Roof","Category":"IFCSPACE","Type":null,"StoreyName":"Roof"}
+{"EntityIndex":2348,"StepId":9021,"GlobalId":"0wkEuT1wr1kOyafLY4v_O1","Name":"Stair:Residential - 200mm Max Riser 250mm Tread:151086","Category":"IFCSTAIR","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3982,"StepId":32116,"GlobalId":"21ldoMpbP4VfsJ0XGY_34d","Name":"Stair:Residential - 200mm Max Riser 250mm Tread:198878","Category":"IFCSTAIR","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":2341,"StepId":8970,"GlobalId":"1oKjKg9PD3fP1iIwXLh3lK","Name":"Stair:Residential - 200mm Max Riser 250mm Tread:151086:1","Category":"IFCSTAIRFLIGHT","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3975,"StepId":32063,"GlobalId":"3KMJUyUe9DfQ2FOCd5ZoiN","Name":"Stair:Residential - 200mm Max Riser 250mm Tread:198878:1","Category":"IFCSTAIRFLIGHT","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":1610,"StepId":5399,"GlobalId":"2O2Fr$t4X7Zf8NOew3FKau","Name":"Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:143239","Category":"IFCWALL","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3300,"StepId":3797,"GlobalId":"2O2Fr$t4X7Zf8NOew3FNtn","Name":"Basic Wall:Exterior - Brick on Block:138062","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":1803,"StepId":3999,"GlobalId":"2O2Fr$t4X7Zf8NOew3FNqI","Name":"Basic Wall:Exterior - Brick on Block:138157","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3336,"StepId":4043,"GlobalId":"2O2Fr$t4X7Zf8NOew3FNr2","Name":"Basic Wall:Exterior - Brick on Block:138237","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":1844,"StepId":4087,"GlobalId":"2O2Fr$t4X7Zf8NOew3FNhv","Name":"Basic Wall:Exterior - Brick on Block:138310","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":1391,"StepId":4131,"GlobalId":"2O2Fr$t4X7Zf8NOew3FNld","Name":"Basic Wall:Interior - Partition (92mm Stud):138584","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":2035,"StepId":4219,"GlobalId":"2O2Fr$t4X7Zf8NOew3FNau","Name":"Basic Wall:Interior - Partition (92mm Stud):139143","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":1414,"StepId":4287,"GlobalId":"2O2Fr$t4X7Zf8NOew3FNbT","Name":"Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139234","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":1436,"StepId":4399,"GlobalId":"2O2Fr$t4X7Zf8NOew3FKRi","Name":"Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139347","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":1450,"StepId":4465,"GlobalId":"2O2Fr$t4X7Zf8NOew3FKRH","Name":"Basic Wall:Party Wall - CMU Residential Unit Dimising Wall:139374","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":2010,"StepId":4508,"GlobalId":"2O2Fr$t4X7Zf8NOew3FKST","Name":"Basic Wall:Interior - Partition (92mm Stud):139682","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":1461,"StepId":4553,"GlobalId":"2O2Fr$t4X7Zf8NOew3FKIu","Name":"Basic Wall:Interior - Partition (92mm Stud):139783","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":1467,"StepId":4598,"GlobalId":"2O2Fr$t4X7Zf8NOew3FKGS","Name":"Basic Wall:Interior - Partition (92mm Stud):139939","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":1473,"StepId":4643,"GlobalId":"2O2Fr$t4X7Zf8NOew3FK80","Name":"Basic Wall:Foundation - Concrete (417mm):140479","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"T/FDN"}
+{"EntityIndex":1550,"StepId":4818,"GlobalId":"2O2Fr$t4X7Zf8NOew3FK9N","Name":"Basic Wall:Foundation - Concrete (417mm):140520","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"T/FDN"}
+{"EntityIndex":1556,"StepId":4868,"GlobalId":"2O2Fr$t4X7Zf8NOew3FKEr","Name":"Basic Wall:Foundation - Concrete (417mm):140554","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"T/FDN"}
+{"EntityIndex":1562,"StepId":4918,"GlobalId":"2O2Fr$t4X7Zf8NOew3FKE5","Name":"Basic Wall:Foundation - Concrete (417mm):140602","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"T/FDN"}
+{"EntityIndex":1568,"StepId":4968,"GlobalId":"2O2Fr$t4X7Zf8NOew3FK3E","Name":"Basic Wall:Foundation - Concrete (435mm):140913","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"T/FDN"}
+{"EntityIndex":1576,"StepId":5057,"GlobalId":"2O2Fr$t4X7Zf8NOew3FK04","Name":"Basic Wall:Foundation - Concrete (435mm):140987","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"T/FDN"}
+{"EntityIndex":1582,"StepId":5106,"GlobalId":"2O2Fr$t4X7Zf8NOew3FK1b","Name":"Basic Wall:Foundation - Concrete (435mm):141018","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"T/FDN"}
+{"EntityIndex":1978,"StepId":5448,"GlobalId":"2O2Fr$t4X7Zf8NOew3FLQD","Name":"Basic Wall:Exterior - Brick on Block:143410","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3391,"StepId":5498,"GlobalId":"2O2Fr$t4X7Zf8NOew3FLR9","Name":"Basic Wall:Exterior - Brick on Block:143478","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":2003,"StepId":5548,"GlobalId":"2O2Fr$t4X7Zf8NOew3FLOH","Name":"Basic Wall:Exterior - Brick on Block:143534","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3398,"StepId":5598,"GlobalId":"2O2Fr$t4X7Zf8NOew3FLPP","Name":"Basic Wall:Exterior - Brick on Block:143590","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":2042,"StepId":5642,"GlobalId":"2O2Fr$t4X7Zf8NOew3FLTF","Name":"Basic Wall:Interior - Partition (92mm Stud):143856","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":2753,"StepId":5687,"GlobalId":"2O2Fr$t4X7Zf8NOew3FLIE","Name":"Basic Wall:Interior - Partition (92mm Stud):143921","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":2721,"StepId":5731,"GlobalId":"2O2Fr$t4X7Zf8NOew3FLJd","Name":"Basic Wall:Interior - Partition (92mm Stud):143960","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":1647,"StepId":5775,"GlobalId":"2O2Fr$t4X7Zf8NOew3FLMr","Name":"Basic Wall:Interior - Plumbing (152mm Stud):144138","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":1657,"StepId":5859,"GlobalId":"2O2Fr$t4X7Zf8NOew3FLKI","Name":"Basic Wall:Interior - Partition (92mm Stud):144301","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":2067,"StepId":5903,"GlobalId":"2O2Fr$t4X7Zf8NOew3FL8v","Name":"Basic Wall:Interior - Partition (92mm Stud):144518","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":2760,"StepId":5948,"GlobalId":"2O2Fr$t4X7Zf8NOew3FL9r","Name":"Basic Wall:Interior - Partition (92mm Stud):144586","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":2746,"StepId":5992,"GlobalId":"2O2Fr$t4X7Zf8NOew3FL96","Name":"Basic Wall:Interior - Partition (92mm Stud):144633","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":1678,"StepId":6036,"GlobalId":"2O2Fr$t4X7Zf8NOew3FLEJ","Name":"Basic Wall:Interior - Partition (92mm Stud):144684","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":1684,"StepId":6080,"GlobalId":"2O2Fr$t4X7Zf8NOew3FLCm","Name":"Basic Wall:Interior - Plumbing (152mm Stud):144783","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3460,"StepId":22663,"GlobalId":"0jf0rYHfX3RAB3bSIRjmmy","Name":"Basic Wall:Exterior - Brick on Block:184944","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Roof"}
+{"EntityIndex":3466,"StepId":22708,"GlobalId":"0jf0rYHfX3RAB3bSIRjmpw","Name":"Basic Wall:Exterior - Brick on Block:185014","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Roof"}
+{"EntityIndex":3472,"StepId":22753,"GlobalId":"0jf0rYHfX3RAB3bSIRjmoa","Name":"Basic Wall:Exterior - Brick on Block:185064","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Roof"}
+{"EntityIndex":3478,"StepId":22798,"GlobalId":"0jf0rYHfX3RAB3bSIRjmr1","Name":"Basic Wall:Exterior - Brick on Block:185101","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Roof"}
+{"EntityIndex":3599,"StepId":24596,"GlobalId":"0iEHWY1$XA8eQeeULq4jZ1","Name":"Basic Wall:Interior - Furring (152 mm Stud):189074","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3608,"StepId":24680,"GlobalId":"0iEHWY1$XA8eQeeULq4j_U","Name":"Basic Wall:Interior - Furring (152 mm Stud):189901","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3614,"StepId":24723,"GlobalId":"0iEHWY1$XA8eQeeULq4jpl","Name":"Basic Wall:Interior - Partition (92mm Stud):190140","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3620,"StepId":24768,"GlobalId":"0iEHWY1$XA8eQeeULq4jDb","Name":"Basic Wall:Interior - Furring (152 mm Stud):190774","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3626,"StepId":24813,"GlobalId":"0iEHWY1$XA8eQeeULq4jE6","Name":"Basic Wall:Interior - Furring (152 mm Stud):190933","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":3703,"StepId":31431,"GlobalId":"0dxE1Sy6nDqfpDb5vIMNiA","Name":"Basic Wall:Interior - Furring (152 mm Stud):193247","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":3709,"StepId":31476,"GlobalId":"0dxE1Sy6nDqfpDb5vIMN_Z","Name":"Basic Wall:Interior - Furring (152 mm Stud):194166","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4181,"StepId":35199,"GlobalId":"1aj$VJZFn2TxepZUBcKpvt","Name":"Basic Wall:Interior - Partition (92mm Stud):203347","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4211,"StepId":35357,"GlobalId":"1aj$VJZFn2TxepZUBcKpZw","Name":"Basic Wall:Interior - Partition (92mm Stud):203998","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4222,"StepId":35452,"GlobalId":"1aj$VJZFn2TxepZUBcKpee","Name":"Basic Wall:Interior - Partition (92mm Stud):204300","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":4228,"StepId":35497,"GlobalId":"1aj$VJZFn2TxepZUBcKphf","Name":"Basic Wall:Interior - Partition (92mm Stud):204493","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 1"}
+{"EntityIndex":4658,"StepId":37913,"GlobalId":"3Y4YRln2r91vflHcHE5IVS","Name":"Basic Wall:Interior - Furring (38 mm Stud):217414","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4667,"StepId":37970,"GlobalId":"3Y4YRln2r91vflHcHE5IVT","Name":"Basic Wall:Interior - Furring (38 mm Stud):217415","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4673,"StepId":38015,"GlobalId":"3Y4YRln2r91vflHcHE5IVI","Name":"Basic Wall:Interior - Furring (38 mm Stud):217416","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4679,"StepId":38060,"GlobalId":"3Y4YRln2r91vflHcHE5IVJ","Name":"Basic Wall:Interior - Furring (38 mm Stud):217417","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4685,"StepId":38105,"GlobalId":"3Y4YRln2r91vflHcHE5ITp","Name":"Basic Wall:Interior - Furring (38 mm Stud):217577","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4691,"StepId":38150,"GlobalId":"3Y4YRln2r91vflHcHE5ITm","Name":"Basic Wall:Interior - Furring (38 mm Stud):217578","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4697,"StepId":38195,"GlobalId":"3Y4YRln2r91vflHcHE5ITn","Name":"Basic Wall:Interior - Furring (38 mm Stud):217579","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":4703,"StepId":38240,"GlobalId":"3Y4YRln2r91vflHcHE5ITs","Name":"Basic Wall:Interior - Furring (38 mm Stud):217580","Category":"IFCWALLSTANDARDCASE","Type":null,"StoreyName":"Level 2"}
+{"EntityIndex":1760,"StepId":6426,"GlobalId":"1hOSvn6df7F8_7GcBWlR72","Name":"M_Fixed:4835mm x 2420mm:4835mm x 2420mm:145788","Category":"IFCWINDOW","Type":"4835mm x 2420mm","StoreyName":"Level 1"}
+{"EntityIndex":1766,"StepId":6531,"GlobalId":"1hOSvn6df7F8_7GcBWlRBU","Name":"M_Fixed:4835mm x 2420mm:4835mm x 2420mm:146016","Category":"IFCWINDOW","Type":"4835mm x 2420mm","StoreyName":"Level 1"}
+{"EntityIndex":1843,"StepId":6921,"GlobalId":"1hOSvn6df7F8_7GcBWlRLx","Name":"M_Fixed:750mm x 2200mm:750mm x 2200mm:146885","Category":"IFCWINDOW","Type":"750mm x 2200mm","StoreyName":"Level 1"}
+{"EntityIndex":1850,"StepId":7025,"GlobalId":"1hOSvn6df7F8_7GcBWlRRL","Name":"M_Fixed:750mm x 2200mm:750mm x 2200mm:147051","Category":"IFCWINDOW","Type":"750mm x 2200mm","StoreyName":"Level 1"}
+{"EntityIndex":1890,"StepId":7190,"GlobalId":"1hOSvn6df7F8_7GcBWlSXO","Name":"M_Fixed:2800mm x 2410mm:2800mm x 2410mm:147686","Category":"IFCWINDOW","Type":"2800mm x 2410mm","StoreyName":"Level 2"}
+{"EntityIndex":1930,"StepId":7407,"GlobalId":"1hOSvn6df7F8_7GcBWlSga","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:147994","Category":"IFCWINDOW","Type":"819mm x 759mm","StoreyName":"Level 2"}
+{"EntityIndex":1977,"StepId":7639,"GlobalId":"1hOSvn6df7F8_7GcBWlSp1","Name":"M_Casement:819mm x 759mm:819mm x 759mm:148607","Category":"IFCWINDOW","Type":"819mm x 759mm","StoreyName":"Level 2"}
+{"EntityIndex":1984,"StepId":7743,"GlobalId":"1hOSvn6df7F8_7GcBWlSnC","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:148722","Category":"IFCWINDOW","Type":"819mm x 759mm","StoreyName":"Level 2"}
+{"EntityIndex":1990,"StepId":7795,"GlobalId":"1hOSvn6df7F8_7GcBWlS_W","Name":"M_Fixed:2800mm x 2410mm:2800mm x 2410mm:149278","Category":"IFCWINDOW","Type":"2800mm x 2410mm","StoreyName":"Level 2"}
+{"EntityIndex":1996,"StepId":7847,"GlobalId":"1hOSvn6df7F8_7GcBWlS2V","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:149537","Category":"IFCWINDOW","Type":"819mm x 759mm","StoreyName":"Level 2"}
+{"EntityIndex":2002,"StepId":7899,"GlobalId":"1hOSvn6df7F8_7GcBWlS1M","Name":"M_Casement:819mm x 759mm:819mm x 759mm:149736","Category":"IFCWINDOW","Type":"819mm x 759mm","StoreyName":"Level 2"}
+{"EntityIndex":2009,"StepId":7951,"GlobalId":"1hOSvn6df7F8_7GcBWlS4Q","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:149924","Category":"IFCWINDOW","Type":"819mm x 759mm","StoreyName":"Level 2"}
+{"EntityIndex":3348,"StepId":21980,"GlobalId":"1l0GAJtRTFv8$zmKJOH4$e","Name":"M_Fixed:2800mm x 2410mm:2800mm x 2410mm:180318","Category":"IFCWINDOW","Type":"2800mm x 2410mm","StoreyName":"Level 2"}
+{"EntityIndex":3354,"StepId":22032,"GlobalId":"1l0GAJtRTFv8$zmKJOH4u1","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:180663","Category":"IFCWINDOW","Type":"819mm x 759mm","StoreyName":"Level 2"}
+{"EntityIndex":3360,"StepId":22084,"GlobalId":"1l0GAJtRTFv8$zmKJOH4qs","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:180864","Category":"IFCWINDOW","Type":"819mm x 759mm","StoreyName":"Level 2"}
+{"EntityIndex":3366,"StepId":22136,"GlobalId":"1l0GAJtRTFv8$zmKJOH4oq","Name":"M_Casement:819mm x 759mm:819mm x 759mm:180994","Category":"IFCWINDOW","Type":"819mm x 759mm","StoreyName":"Level 2"}
+{"EntityIndex":3372,"StepId":22188,"GlobalId":"1l0GAJtRTFv8$zmKJOH4pU","Name":"M_Fixed:2800mm x 2410mm:2800mm x 2410mm:181096","Category":"IFCWINDOW","Type":"2800mm x 2410mm","StoreyName":"Level 2"}
+{"EntityIndex":3378,"StepId":22240,"GlobalId":"1l0GAJtRTFv8$zmKJOH4kJ","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:181285","Category":"IFCWINDOW","Type":"819mm x 759mm","StoreyName":"Level 2"}
+{"EntityIndex":3384,"StepId":22292,"GlobalId":"1l0GAJtRTFv8$zmKJOH4gQ","Name":"M_Casement:819mm x 759mm:819mm x 759mm:181548","Category":"IFCWINDOW","Type":"819mm x 759mm","StoreyName":"Level 2"}
+{"EntityIndex":3390,"StepId":22344,"GlobalId":"1l0GAJtRTFv8$zmKJOH4hv","Name":"M_Fixed:819mm x 759mm:819mm x 759mm:181583","Category":"IFCWINDOW","Type":"819mm x 759mm","StoreyName":"Level 2"}
+{"EntityIndex":3397,"StepId":22396,"GlobalId":"1l0GAJtRTFv8$zmKJOH4aS","Name":"M_Fixed:750mm x 2200mm:750mm x 2200mm:181930","Category":"IFCWINDOW","Type":"750mm x 2200mm","StoreyName":"Level 2"}
+{"EntityIndex":3404,"StepId":22448,"GlobalId":"1l0GAJtRTFv8$zmKJOH4ZZ","Name":"M_Fixed:750mm x 2200mm:750mm x 2200mm:182101","Category":"IFCWINDOW","Type":"750mm x 2200mm","StoreyName":"Level 2"}
+{"EntityIndex":3499,"StepId":23162,"GlobalId":"1Eo2$BaHX42AEkDvQQDocD","Name":"M_Skylight:1180 x 1170mm:1180 x 1170mm:185337","Category":"IFCWINDOW","Type":"1180 x 1170mm","StoreyName":"Roof"}
+{"EntityIndex":3503,"StepId":23251,"GlobalId":"1Eo2$BaHX42AEkDvQQDoy2","Name":"M_Skylight:1180 x 1170mm:1180 x 1170mm:185718","Category":"IFCWINDOW","Type":"1180 x 1170mm","StoreyName":"Roof"}

@@ -1,0 +1,23 @@
+{
+  "name": "bim-open-plot",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Charts, drawings, and figures from building-model tables: the picture layer of the BIM Open family.",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm test --workspaces --if-present",
+    "typecheck": "tsc --noEmit -p packages/demos/tsconfig.json",
+    "demos": "vite packages/demos --host 127.0.0.1 --port 5320 --strictPort",
+    "demos:build": "vite build packages/demos",
+    "demos:index": "node packages/demos/scripts/index.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "typescript": "^5.6.0",
+    "vite": "^7.0.0",
+    "vitest": "^3.0.0"
+  }
+}
