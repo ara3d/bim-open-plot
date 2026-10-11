@@ -6,7 +6,7 @@ BIM Open Plot is the picture layer of the [BIM Open family](https://github.com/a
 
 ## What it is for
 
-A BIM manager asks Claude, in Claude Code or the studio's Ask box, for a door schedule per storey with a chart, as a report. The flow host computes the table. This repository is what makes the chart: a figure that is data (a JSON spec that Claude writes as a tool result and a run record hashes), rendered the same way in the studio, in a notebook that opens with no host, and in a self-contained HTML or PDF a colleague opens without the toolkit.
+The project brief, [`PROJECT.md`](PROJECT.md), says who it is for, the four workflows it serves, its principles, and what is in and out of scope. Tickets for this repository live in [bim-open-toolkit](https://github.com/ara3d/bim-open-toolkit)'s `tickets/` folder, with fences under `deps/bim-open-plot/`.
 
 ## Where it stands in the family
 
