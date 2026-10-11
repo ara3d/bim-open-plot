@@ -1,0 +1,13 @@
+{
+  "slug": "discipline-mix",
+  "title": "Discipline mix by storey",
+  "role": "MEP coordinator",
+  "decision": "Which discipline drives each storey's coordination effort?",
+  "kinds": ["scene3d", "chart"],
+  "model": "duplex",
+  "data": [
+    { "file": "/models/duplex-federated.bos", "provenance": "model", "note": "Duplex Apartment federated: architecture, MEP, electrical, and mechanical (rooms and spaces) models in one file" },
+    { "file": "/models/duplex-federated.bos", "provenance": "derived", "note": "Per drawn element, its discipline from the source document it came from and its storey from the containment and aggregation chain, computed on load" }
+  ],
+  "tags": ["3d", "mep", "disciplines", "federated", "coordination"]
+}
