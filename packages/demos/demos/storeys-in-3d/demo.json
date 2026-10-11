@@ -1,0 +1,14 @@
+{
+  "slug": "storeys-in-3d",
+  "title": "Storeys in 3D",
+  "role": "Coordinator",
+  "decision": "What does each storey hold, seen in 3D, stacked and exploded?",
+  "kinds": ["scene3d", "chart"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment architecture entities with the storey the IFC places them on" },
+    { "file": "/data/duplex/parameters.json", "provenance": "model", "note": "Ifc:Elevation of each IFCBUILDINGSTOREY, which orders the storeys" },
+    { "file": "/models/duplex-federated.bos", "provenance": "model", "note": "Duplex architecture, MEP, electrical, and rooms-and-spaces models federated in one BOS file; its containment names the storey of elements the extract does not cover" }
+  ],
+  "tags": ["3d", "storey", "explode", "coordination"]
+}
