@@ -1,0 +1,13 @@
+{
+  "slug": "parameter-completeness",
+  "title": "Parameter completeness",
+  "role": "BIM manager",
+  "decision": "Is the delivered model complete enough to accept: which parameters are filled for which classes?",
+  "kinds": ["chart"],
+  "model": "duplex",
+  "data": [
+    { "file": "/data/duplex/elements.json", "provenance": "model", "note": "Duplex Apartment entities with their IFC class, counted per class" },
+    { "file": "/data/duplex/parameters.json", "provenance": "model", "note": "Duplex Apartment property sets and IFC attributes, one row per element and parameter it carries" }
+  ],
+  "tags": ["model-quality", "parameters", "heatmap", "handover"]
+}
