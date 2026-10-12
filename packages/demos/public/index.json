@@ -1,0 +1,1006 @@
+[
+  {
+    "slug": "flow-carbon-intensity-by-storey",
+    "title": "Carbon intensity by storey",
+    "role": "Sustainability lead",
+    "decision": "How much embodied carbon does each storey carry per square metre of floor?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "data/figure.json",
+        "provenance": "synthetic",
+        "note": "Element embodied carbon (A1-A3) from the NRC paper's nrc_analytics_elements.csv, which the toolkit marks synthetic, over the Duplex Apartment's materials, divided by each storey's net IfcSpace area from the model; the output of toolkit graph viz-carbon-intensity-by-storey"
+      }
+    ],
+    "tags": [
+      "carbon",
+      "storey",
+      "intensity",
+      "sustainability",
+      "flow-graph"
+    ]
+  },
+  {
+    "slug": "flow-clash-matrix",
+    "title": "Clash candidate matrix (from the graph)",
+    "role": "Coordinator",
+    "decision": "Which pairs of IFC classes have the most elements whose bounding boxes overlap?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "data/figure.json",
+        "provenance": "model",
+        "note": "Duplex Apartment bounding-box overlaps over one litre, counted per class pair by the graph; the output of toolkit graph viz-clash-matrix"
+      }
+    ],
+    "tags": [
+      "clash",
+      "coordination",
+      "heatmap",
+      "matrix",
+      "flow-graph"
+    ]
+  },
+  {
+    "slug": "clash-candidate-matrix",
+    "title": "Clash candidates by class pair",
+    "role": "BIM coordinator",
+    "decision": "Which class pairs overlap most, per storey, so the clash meeting starts in the right place?",
+    "kinds": [
+      "chart",
+      "drawing"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment entities with their IFC class and storey"
+      },
+      {
+        "file": "/data/duplex/bounds.json",
+        "provenance": "model",
+        "note": "Duplex Apartment axis-aligned bounding boxes in metres, one per element; every overlap is tested between these boxes"
+      },
+      {
+        "file": "/data/duplex/relations.json",
+        "provenance": "model",
+        "note": "Duplex Apartment MemberOf relations, used to leave out an assembly (the roof) whose part carries the same box"
+      }
+    ],
+    "tags": [
+      "clash",
+      "coordination",
+      "heatmap",
+      "floor-plan"
+    ]
+  },
+  {
+    "slug": "egress-hops-plan",
+    "title": "Connections to an exit, room by room",
+    "role": "Fire engineer",
+    "decision": "How many doors must each room pass through to reach an exit?",
+    "kinds": [
+      "drawing",
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment entities with their storey, joined to the boxes by STEP id"
+      },
+      {
+        "file": "/data/duplex/bounds.json",
+        "provenance": "model",
+        "note": "Duplex Apartment axis-aligned bounding boxes of spaces, doors, and stair flights, from ifc_bounds"
+      }
+    ],
+    "tags": [
+      "egress",
+      "floor-plan",
+      "doors",
+      "fire"
+    ]
+  },
+  {
+    "slug": "construction-sequence",
+    "title": "Construction sequence",
+    "role": "Project manager",
+    "decision": "Is the finishing sequence on the critical path, and what is built by which week?",
+    "kinds": [
+      "chart",
+      "scene3d"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "data/schedule.json",
+        "provenance": "synthetic",
+        "note": "Invented by a fixed rule over the real element list: one activity per storey and trade, lasting ceil(elements / crew rate per week), linked in building order (structure storey by storey, windows and doors after the roof, coverings, then furniture, one crew per finishing trade moving up), timed by the critical path method; each element finishes in a week of its activity in STEP id order"
+      },
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment elements with their class and storey, the input the schedule rule reads"
+      },
+      {
+        "file": "/models/duplex-federated.bos",
+        "provenance": "model",
+        "note": "Duplex Apartment federated model, coloured by build week by STEP id"
+      }
+    ],
+    "tags": [
+      "schedule",
+      "4d",
+      "gantt",
+      "critical-path",
+      "3d"
+    ]
+  },
+  {
+    "slug": "flow-construction-sequence",
+    "title": "Construction sequence (from the graph)",
+    "role": "Site superintendent",
+    "decision": "In what order do the floors and trades get built, and which week does each task finish?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "data/figure.json",
+        "provenance": "synthetic",
+        "note": "Invented by bim.buildSequence over the Duplex Apartment's real element list: storeys bottom-up, trades Structure, Envelope, MEP, Finishes, 10-day tasks from 2027-01-04; no real programme; the output of toolkit graph viz-construction-sequence"
+      }
+    ],
+    "tags": [
+      "schedule",
+      "gantt",
+      "4d",
+      "flow-graph"
+    ]
+  },
+  {
+    "slug": "cost-by-storey-class",
+    "title": "Cost by storey and class: Base vs value-engineered",
+    "role": "Estimator",
+    "decision": "What does each storey cost by class under the base and the value-engineered rates, and what is still unpriced?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment elements with their class, type name, and storey"
+      },
+      {
+        "file": "/data/duplex/parameters.json",
+        "provenance": "model",
+        "note": "Duplex Apartment quantities: Area, Volume, and Length from PSet_Revit_Dimensions"
+      },
+      {
+        "file": "/data/duplex/relations.json",
+        "provenance": "model",
+        "note": "Duplex Apartment assemblies: stair flights, stringers, and railings that belong to a stair, the slab that belongs to the roof"
+      },
+      {
+        "file": "data/unit-rates.json",
+        "provenance": "synthetic",
+        "note": "Unit rates in USD per m², m³, m, or each for a Base and a value-engineered scenario, invented at a plausible order of magnitude for Chicago-area residential work; illustrative, not a priced bill"
+      }
+    ],
+    "tags": [
+      "cost",
+      "estimating",
+      "value-engineering",
+      "storey"
+    ]
+  },
+  {
+    "slug": "discipline-mix",
+    "title": "Discipline mix by storey",
+    "role": "MEP coordinator",
+    "decision": "Which discipline drives each storey's coordination effort?",
+    "kinds": [
+      "scene3d",
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/models/duplex-federated.bos",
+        "provenance": "model",
+        "note": "Duplex Apartment federated: architecture, MEP, electrical, and mechanical (rooms and spaces) models in one file"
+      },
+      {
+        "file": "/models/duplex-federated.bos",
+        "provenance": "derived",
+        "note": "Per drawn element, its discipline from the source document it came from and its storey from the containment and aggregation chain, computed on load"
+      }
+    ],
+    "tags": [
+      "3d",
+      "mep",
+      "disciplines",
+      "federated",
+      "coordination"
+    ]
+  },
+  {
+    "slug": "flow-opening-schedule",
+    "title": "Door and window schedule",
+    "role": "Estimator",
+    "decision": "How many doors and windows of each type and size are on each storey?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "data/figure.json",
+        "provenance": "model",
+        "note": "Duplex Apartment door and window OverallWidth and OverallHeight, grouped per storey, type, and size by the graph; the output of toolkit graph viz-opening-schedule"
+      }
+    ],
+    "tags": [
+      "schedule",
+      "doors",
+      "windows",
+      "quantities",
+      "flow-graph"
+    ]
+  },
+  {
+    "slug": "door-width-check",
+    "title": "Door width check",
+    "role": "Accessibility reviewer",
+    "decision": "Which doors fall below an 850 mm clear width, and where are they?",
+    "kinds": [
+      "chart",
+      "drawing"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment doors and spaces with their storey"
+      },
+      {
+        "file": "/data/duplex/parameters.json",
+        "provenance": "model",
+        "note": "Duplex Apartment door widths (Ifc:OverallWidth, in metres)"
+      },
+      {
+        "file": "/data/duplex/bounds.json",
+        "provenance": "model",
+        "note": "Duplex Apartment bounding boxes, in metres, for the plans"
+      }
+    ],
+    "tags": [
+      "doors",
+      "accessibility",
+      "floor-plan",
+      "check"
+    ]
+  },
+  {
+    "slug": "flow-door-accessibility",
+    "title": "Door widths against 850 mm",
+    "role": "Accessibility reviewer",
+    "decision": "Which doors are narrower than the 850 mm accessible minimum?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "data/figure.json",
+        "provenance": "model",
+        "note": "Duplex Apartment door OverallWidth, binned per 50 mm and scored against the 850 mm rule by the graph; the output of toolkit graph viz-door-accessibility"
+      }
+    ],
+    "tags": [
+      "accessibility",
+      "doors",
+      "histogram",
+      "compliance",
+      "flow-graph"
+    ]
+  },
+  {
+    "slug": "element-mix-by-storey",
+    "title": "Element mix by storey",
+    "role": "BIM manager",
+    "decision": "Which element classes make up each storey, and is anything unassigned to a storey?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment entities with their IFC class and storey"
+      },
+      {
+        "file": "/data/duplex/parameters.json",
+        "provenance": "model",
+        "note": "Duplex Apartment storey elevations (Ifc:Elevation), used to order the storeys"
+      }
+    ],
+    "tags": [
+      "storey",
+      "classes",
+      "model-quality"
+    ]
+  },
+  {
+    "slug": "element-size-scatter",
+    "title": "Element size outliers",
+    "role": "Quantity surveyor",
+    "decision": "Which elements are outliers in volume and height, and are they real or modelling errors?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment elements with their IFC class and storey"
+      },
+      {
+        "file": "/data/duplex/parameters.json",
+        "provenance": "model",
+        "note": "Duplex Apartment modelled volumes (PSet_Revit_Dimensions Volume, m³) for walls, slabs, coverings, beams, and footings"
+      },
+      {
+        "file": "/data/duplex/bounds.json",
+        "provenance": "model",
+        "note": "Duplex Apartment bounding boxes in metres: the height of every element, and the volume of those with no modelled one"
+      }
+    ],
+    "tags": [
+      "quantities",
+      "outliers",
+      "volume",
+      "model-quality"
+    ]
+  },
+  {
+    "slug": "flow-element-size-outliers",
+    "title": "Element size outliers",
+    "role": "Model auditor",
+    "decision": "Which elements are ten or more times larger or smaller than the rest of their IFC class?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "data/figure.json",
+        "provenance": "model",
+        "note": "Duplex Apartment elements with mesh volume, height, and class median, computed by the graph; the output of toolkit graph viz-element-size-outliers"
+      }
+    ],
+    "tags": [
+      "outliers",
+      "qa",
+      "scatter",
+      "volume",
+      "flow-graph"
+    ]
+  },
+  {
+    "slug": "flow-storey-stacking",
+    "title": "Elements per storey by class",
+    "role": "BIM manager",
+    "decision": "How many elements of each class sit on each storey, from the foundation to the roof?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "data/figure.json",
+        "provenance": "model",
+        "note": "Duplex Apartment physical elements counted per storey and class by the graph; the output of toolkit graph viz-storey-stacking"
+      }
+    ],
+    "tags": [
+      "storey",
+      "classes",
+      "stacked",
+      "flow-graph"
+    ]
+  },
+  {
+    "slug": "flow-carbon-by-material",
+    "title": "Embodied carbon by material",
+    "role": "Sustainability lead",
+    "decision": "Which few materials carry 80% of the embodied carbon, and which can be ignored?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "data/figure.json",
+        "provenance": "synthetic",
+        "note": "Element embodied carbon (A1-A3) from the NRC paper's nrc_analytics_elements.csv, which the toolkit marks synthetic, over the Duplex Apartment's materials, split over material layers by thickness; the output of toolkit graph viz-carbon-by-material"
+      }
+    ],
+    "tags": [
+      "carbon",
+      "pareto",
+      "material",
+      "sustainability",
+      "flow-graph"
+    ]
+  },
+  {
+    "slug": "embodied-carbon-storey",
+    "title": "Embodied carbon by storey and material",
+    "role": "Sustainability lead",
+    "decision": "Which storey and which material family to target for embodied-carbon cuts?",
+    "kinds": [
+      "chart",
+      "scene3d"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment entities with their storey and type name"
+      },
+      {
+        "file": "/data/duplex/parameters.json",
+        "provenance": "model",
+        "note": "Duplex Apartment PSet_Revit_Dimensions Volume (m³) and storey elevations"
+      },
+      {
+        "file": "/data/duplex/relations.json",
+        "provenance": "model",
+        "note": "Duplex Apartment element-to-material links (HasLayer, HasMaterial)"
+      },
+      {
+        "file": "data/carbon-factors.json",
+        "provenance": "synthetic",
+        "note": "Carbon factors per material family (kgCO2e/m³), illustrative values sized like generic entries in an EPD database, not taken from any EPD"
+      },
+      {
+        "file": "/models/duplex-federated.bos",
+        "provenance": "model",
+        "note": "Duplex Apartment federated model for the 3D view"
+      }
+    ],
+    "tags": [
+      "carbon",
+      "sustainability",
+      "heatmap",
+      "3d",
+      "storey"
+    ]
+  },
+  {
+    "slug": "flow-facade-orientation",
+    "title": "Facade area by compass sector",
+    "role": "Facade engineer",
+    "decision": "How much wall and glazing sits on each side of the building?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "data/figure.json",
+        "provenance": "model",
+        "note": "Duplex Apartment external walls and windows, placed in compass sectors with face areas by bim.orientation; the output of toolkit graph viz-facade-orientation"
+      }
+    ],
+    "tags": [
+      "facade",
+      "orientation",
+      "polar",
+      "envelope",
+      "flow-graph"
+    ]
+  },
+  {
+    "slug": "rooms-by-storey-area",
+    "title": "Floor area by storey and room",
+    "role": "Architect",
+    "decision": "Which storey carries the most floor area, and how is it split between rooms?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment spaces and storeys, with the storey each space sits on"
+      },
+      {
+        "file": "/data/duplex/parameters.json",
+        "provenance": "model",
+        "note": "Duplex Apartment values: space Area (PSet_Revit_Dimensions), room Number, OccupancyZoneName (the unit), and storey Ifc:Elevation"
+      }
+    ],
+    "tags": [
+      "area",
+      "storey",
+      "rooms"
+    ]
+  },
+  {
+    "slug": "flow-parameter-completeness",
+    "title": "Handover parameter fill rate",
+    "role": "BIM manager",
+    "decision": "Which classes of element are missing the parameters the handover needs?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "data/figure.json",
+        "provenance": "model",
+        "note": "Duplex Apartment parameter values checked against fourteen COBie-style handover fields by the graph; the output of toolkit graph viz-parameter-completeness"
+      }
+    ],
+    "tags": [
+      "handover",
+      "cobie",
+      "completeness",
+      "heatmap",
+      "qa",
+      "flow-graph"
+    ]
+  },
+  {
+    "slug": "installed-vs-planned",
+    "title": "Installed vs planned",
+    "role": "Site superintendent",
+    "decision": "What is installed per storey against the plan this week, and where are we behind?",
+    "kinds": [
+      "chart",
+      "scene3d"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment elements with their class, storey, STEP id, and GlobalId"
+      },
+      {
+        "file": "data/events.json",
+        "provenance": "synthetic",
+        "note": "Install events invented by a rule: a 15-week plan by storey and class in build order (footings, slabs, walls and frame, roof, windows and doors, coverings, furniture), elements spread over each activity in STEP id order, then a delay per activity (Level 2 walls and frame, the roof, and later Level 2 and roof work 2 weeks late, Level 2 slabs 1 week late, Level 1 windows, doors, and coverings 1 week early); status at week 9"
+      },
+      {
+        "file": "/models/duplex-federated.bos",
+        "provenance": "model",
+        "note": "Duplex Apartment federated model for the 3D view, matched to the events by STEP id"
+      }
+    ],
+    "tags": [
+      "progress",
+      "schedule",
+      "s-curve",
+      "3d",
+      "site"
+    ]
+  },
+  {
+    "slug": "parameter-completeness",
+    "title": "Parameter completeness",
+    "role": "BIM manager",
+    "decision": "Is the delivered model complete enough to accept: which parameters are filled for which classes?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment entities with their IFC class, counted per class"
+      },
+      {
+        "file": "/data/duplex/parameters.json",
+        "provenance": "model",
+        "note": "Duplex Apartment property sets and IFC attributes, one row per element and parameter it carries"
+      }
+    ],
+    "tags": [
+      "model-quality",
+      "parameters",
+      "heatmap",
+      "handover"
+    ]
+  },
+  {
+    "slug": "flow-progress-s-curve",
+    "title": "Progress S-curve (from the graph)",
+    "role": "Project manager",
+    "decision": "How many elements should be installed by each week, and how far behind is the site?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "data/figure.json",
+        "provenance": "synthetic",
+        "note": "Invented by bim.buildSequence over the Duplex Apartment's real element list: storeys bottom-up, trades Structure, Envelope, MEP, Finishes, 10-day tasks from 2027-01-04; no real programme; Actual is Planned held three weeks late, a made-up slip; the output of toolkit graph viz-progress-s-curve"
+      }
+    ],
+    "tags": [
+      "schedule",
+      "progress",
+      "s-curve",
+      "flow-graph"
+    ]
+  },
+  {
+    "slug": "room-adjacency-network",
+    "title": "Room adjacency network",
+    "role": "Space planner",
+    "decision": "Which rooms connect to which, through doors, openings, and stairs?",
+    "kinds": [
+      "drawing",
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment entities with their storey, joined to the boxes by STEP id"
+      },
+      {
+        "file": "/data/duplex/bounds.json",
+        "provenance": "model",
+        "note": "Duplex Apartment axis-aligned bounding boxes of spaces, doors, and stair flights, from ifc_bounds; every connection is inferred from them"
+      },
+      {
+        "file": "/data/duplex/parameters.json",
+        "provenance": "model",
+        "note": "Duplex Apartment room Number (tells the two units apart) and Area of each space"
+      }
+    ],
+    "tags": [
+      "adjacency",
+      "network",
+      "floor-plan",
+      "space-planning"
+    ]
+  },
+  {
+    "slug": "flow-room-areas",
+    "title": "Room areas",
+    "role": "Space planner",
+    "decision": "How big is each room, and how much floor area does each room type take?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "data/figure.json",
+        "provenance": "model",
+        "note": "Duplex Apartment IfcSpace areas (GSA BIM Area) with room types from bim.classifyRooms; the output of toolkit graph viz-room-areas"
+      }
+    ],
+    "tags": [
+      "area",
+      "rooms",
+      "histogram",
+      "space",
+      "flow-graph"
+    ]
+  },
+  {
+    "slug": "room-area-plan",
+    "title": "Room areas on the floor plan",
+    "role": "Facility manager",
+    "decision": "Where is each room, and how large is it?",
+    "kinds": [
+      "drawing"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment entities with their storey"
+      },
+      {
+        "file": "/data/duplex/parameters.json",
+        "provenance": "model",
+        "note": "Duplex Apartment room Area, Number, and name, and storey elevations"
+      },
+      {
+        "file": "/data/duplex/bounds.json",
+        "provenance": "model",
+        "note": "Duplex Apartment bounding boxes for rooms, walls, and doors"
+      }
+    ],
+    "tags": [
+      "floor-plan",
+      "heatmap",
+      "area",
+      "rooms"
+    ]
+  },
+  {
+    "slug": "room-temperature",
+    "title": "Room temperature on a summer day",
+    "role": "Facility manager",
+    "decision": "Which rooms overheat in the afternoon, and when does it start?",
+    "kinds": [
+      "drawing",
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment spaces and windows with their storey"
+      },
+      {
+        "file": "/data/duplex/parameters.json",
+        "provenance": "model",
+        "note": "Duplex Apartment room numbers (Identity Data Number)"
+      },
+      {
+        "file": "/data/duplex/bounds.json",
+        "provenance": "model",
+        "note": "Duplex Apartment bounding boxes of rooms and windows"
+      },
+      {
+        "file": "data/readings.json",
+        "provenance": "synthetic",
+        "note": "Hourly °C for one summer day per room, by a fixed rule (rule.ts): 22.5 + 2.5 cos(2π(hour − 16)/24), plus 10 × window m² per facade ÷ room box m² peaking at 09:00 east, 13:00 south, 16:00 west and fading over 4 h, plus 0.8 for bathrooms and utility rooms, plus 0.3 sin(0.7 × StepId + 1.3 × hour); no random numbers; A105 Stair and B205 Utility have no sensor"
+      }
+    ],
+    "tags": [
+      "sensors",
+      "temperature",
+      "heatmap",
+      "floor-plan",
+      "facilities"
+    ]
+  },
+  {
+    "slug": "site-map",
+    "title": "Site map and nearby projects",
+    "role": "Owner",
+    "decision": "Where does the building sit, and what else of mine is around it?",
+    "kinds": [
+      "map",
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment entities with their storey, to find the Level 1 spaces"
+      },
+      {
+        "file": "/data/duplex/bounds.json",
+        "provenance": "model",
+        "note": "Duplex Apartment model box and space boxes, for the footprint and the room fills"
+      },
+      {
+        "file": "data/georeference.json",
+        "provenance": "model",
+        "note": "IfcSite RefLatitude and RefLongitude typed from IfcSite in duplex.ifc (the BOS converter truncates it, a toolkit defect); no IfcMapConversion or TrueNorth, so rotation 0 (north-up) is an assumption"
+      },
+      {
+        "file": "data/nearby.geojson",
+        "provenance": "synthetic",
+        "note": "Six invented projects of the same owner, placed 500 to 720 m from the IfcSite point in the Chicago South Loop, with invented names, a status of design, construction, or handover, and gross floor areas of 620 to 4,200 m² typical of urban residential, clinic, and library buildings"
+      }
+    ],
+    "tags": [
+      "map",
+      "site",
+      "portfolio",
+      "geojson"
+    ]
+  },
+  {
+    "slug": "storeys-in-3d",
+    "title": "Storeys in 3D",
+    "role": "Coordinator",
+    "decision": "What does each storey hold, seen in 3D, stacked and exploded?",
+    "kinds": [
+      "scene3d",
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment architecture entities with the storey the IFC places them on"
+      },
+      {
+        "file": "/data/duplex/parameters.json",
+        "provenance": "model",
+        "note": "Ifc:Elevation of each IFCBUILDINGSTOREY, which orders the storeys"
+      },
+      {
+        "file": "/models/duplex-federated.bos",
+        "provenance": "model",
+        "note": "Duplex architecture, MEP, electrical, and rooms-and-spaces models federated in one BOS file; its containment names the storey of elements the extract does not cover"
+      }
+    ],
+    "tags": [
+      "3d",
+      "storey",
+      "explode",
+      "coordination"
+    ]
+  },
+  {
+    "slug": "travel-distance-heatmap",
+    "title": "Travel distance to an exit",
+    "role": "Fire engineer",
+    "decision": "Which rooms are furthest from an exit, and which exceed a travel-distance limit?",
+    "kinds": [
+      "drawing",
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment entities with their IFC class and storey"
+      },
+      {
+        "file": "/data/duplex/bounds.json",
+        "provenance": "model",
+        "note": "Duplex Apartment bounding box per element; rooms, doors, stairs, and distances are derived from these boxes"
+      }
+    ],
+    "tags": [
+      "egress",
+      "travel-distance",
+      "heatmap",
+      "floor-plan",
+      "fire"
+    ]
+  },
+  {
+    "slug": "model-diff-federated",
+    "title": "What federation adds, class by class",
+    "role": "BIM manager",
+    "decision": "What does the federated model add over the architecture model, per class, and does anything in the architecture model go missing?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment architecture model (duplex.ifc): every IFC product with its class and STEP id"
+      },
+      {
+        "file": "/models/duplex-federated.bos",
+        "provenance": "model",
+        "note": "Duplex Apartment federated model: architecture, MEP, electrical, and rooms and spaces files in one BOS, each kept as its own document"
+      },
+      {
+        "file": "main.ts",
+        "provenance": "derived",
+        "note": "The comparison is computed by this demo's main.ts on every load (counts per upper-cased class, STEP ids matched inside the architecture document); no file stores it"
+      }
+    ],
+    "tags": [
+      "federation",
+      "model-diff",
+      "classes",
+      "model-quality"
+    ]
+  },
+  {
+    "slug": "flow-model-composition",
+    "title": "What the model is made of",
+    "role": "BIM manager",
+    "decision": "Which element classes make up the model, and how large is each share?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "data/figure.json",
+        "provenance": "model",
+        "note": "Duplex Apartment physical elements counted per class by the graph, the smallest classes folded into Other; the output of toolkit graph viz-model-composition"
+      }
+    ],
+    "tags": [
+      "composition",
+      "classes",
+      "overview",
+      "flow-graph"
+    ]
+  },
+  {
+    "slug": "window-orientation",
+    "title": "Window area by orientation",
+    "role": "Energy analyst",
+    "decision": "How much window area faces each compass direction, and what is the window-to-wall ratio per facade?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "/data/duplex/elements.json",
+        "provenance": "model",
+        "note": "Duplex Apartment windows and walls with their storey"
+      },
+      {
+        "file": "/data/duplex/parameters.json",
+        "provenance": "model",
+        "note": "Duplex Apartment window width and height, wall area and Revit wall Function (exterior or not)"
+      },
+      {
+        "file": "/data/duplex/bounds.json",
+        "provenance": "model",
+        "note": "Duplex Apartment element boxes in metres, from which each window's and wall's facing is inferred"
+      }
+    ],
+    "tags": [
+      "windows",
+      "orientation",
+      "energy",
+      "facade"
+    ]
+  },
+  {
+    "slug": "flow-window-to-wall-ratio",
+    "title": "Window-to-wall ratio by facing",
+    "role": "Energy modeller",
+    "decision": "What share of each facade is glazing, against the 0.40 prescriptive ceiling?",
+    "kinds": [
+      "chart"
+    ],
+    "model": "duplex",
+    "data": [
+      {
+        "file": "data/figure.json",
+        "provenance": "model",
+        "note": "Duplex Apartment external wall and window face areas per facing, from bim.orientation; the output of toolkit graph viz-window-to-wall-ratio"
+      }
+    ],
+    "tags": [
+      "energy",
+      "facade",
+      "wwr",
+      "envelope",
+      "flow-graph"
+    ]
+  }
+]
