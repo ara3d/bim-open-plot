@@ -2,6 +2,10 @@
 
 Charts, drawings, and figures from building-model tables, for the people who ask the questions and the agents that answer them.
 
+[![Sixteen of the demos: the Duplex in 3D by storey, embodied carbon by material, a floor plan coloured by room area, handover fill rates, facade area by direction, a site map, clash candidates, a construction Gantt, size outliers, progress against plan, a room adjacency network, the model's make-up by class, cost per storey, carbon per m², and door widths against an 850 mm minimum](docs/collage.png)](https://ara3d.github.io/bim-open-plot/)
+
+The [demo page](https://ara3d.github.io/bim-open-plot/) has 34 figures over the public Duplex model, each for a named role and a decision; the ones marked "from the graph" are computed by a [BIM Open Flow](https://github.com/ara3d/bim-open-flow) graph in the toolkit. Regenerate this picture with `npm run demos:thumbs` then `npm run demos:collage`.
+
 BIM Open Plot is the picture layer of the [BIM Open family](https://github.com/ara3d/bim-open-toolkit): the part that turns a result table into a bar chart, a line chart, a section drawing coloured by data, a bar standing beside the building in 3D, or a composed figure for a report. Today, 2026-10-11, the repository holds its brand, its design research, and nothing that runs. The code it will grow from is `@bimopenflow/viz` in [bim-open-flow](https://github.com/ara3d/bim-open-flow) (about 770 lines of TypeScript that draw bar and line charts and tables as SVG, shared by the studio's Chart tab, the notebook's chart embed, and the C# dashboard generator) and the `view3d.*` nodes over [bim-open-viewer](https://github.com/ara3d/bim-open-viewer).
 
 ## What it is for
