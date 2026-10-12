@@ -21,7 +21,8 @@
       "intensity",
       "sustainability",
       "flow-graph"
-    ]
+    ],
+    "thumb": "thumbs/flow-carbon-intensity-by-storey.png"
   },
   {
     "slug": "flow-clash-matrix",
@@ -45,7 +46,8 @@
       "heatmap",
       "matrix",
       "flow-graph"
-    ]
+    ],
+    "thumb": "thumbs/flow-clash-matrix.png"
   },
   {
     "slug": "clash-candidate-matrix",
@@ -79,7 +81,8 @@
       "coordination",
       "heatmap",
       "floor-plan"
-    ]
+    ],
+    "thumb": "thumbs/clash-candidate-matrix.png"
   },
   {
     "slug": "egress-hops-plan",
@@ -108,7 +111,8 @@
       "floor-plan",
       "doors",
       "fire"
-    ]
+    ],
+    "thumb": "thumbs/egress-hops-plan.png"
   },
   {
     "slug": "construction-sequence",
@@ -143,7 +147,8 @@
       "gantt",
       "critical-path",
       "3d"
-    ]
+    ],
+    "thumb": "thumbs/construction-sequence.png"
   },
   {
     "slug": "flow-construction-sequence",
@@ -166,7 +171,8 @@
       "gantt",
       "4d",
       "flow-graph"
-    ]
+    ],
+    "thumb": "thumbs/flow-construction-sequence.png"
   },
   {
     "slug": "cost-by-storey-class",
@@ -204,7 +210,8 @@
       "estimating",
       "value-engineering",
       "storey"
-    ]
+    ],
+    "thumb": "thumbs/cost-by-storey-class.png"
   },
   {
     "slug": "discipline-mix",
@@ -234,7 +241,8 @@
       "disciplines",
       "federated",
       "coordination"
-    ]
+    ],
+    "thumb": "thumbs/discipline-mix.png"
   },
   {
     "slug": "flow-opening-schedule",
@@ -258,7 +266,8 @@
       "windows",
       "quantities",
       "flow-graph"
-    ]
+    ],
+    "thumb": "thumbs/flow-opening-schedule.png"
   },
   {
     "slug": "door-width-check",
@@ -292,7 +301,8 @@
       "accessibility",
       "floor-plan",
       "check"
-    ]
+    ],
+    "thumb": "thumbs/door-width-check.png"
   },
   {
     "slug": "flow-door-accessibility",
@@ -316,7 +326,8 @@
       "histogram",
       "compliance",
       "flow-graph"
-    ]
+    ],
+    "thumb": "thumbs/flow-door-accessibility.png"
   },
   {
     "slug": "element-mix-by-storey",
@@ -343,7 +354,8 @@
       "storey",
       "classes",
       "model-quality"
-    ]
+    ],
+    "thumb": "thumbs/element-mix-by-storey.png"
   },
   {
     "slug": "element-size-scatter",
@@ -376,7 +388,8 @@
       "outliers",
       "volume",
       "model-quality"
-    ]
+    ],
+    "thumb": "thumbs/element-size-scatter.png"
   },
   {
     "slug": "flow-element-size-outliers",
@@ -400,7 +413,8 @@
       "scatter",
       "volume",
       "flow-graph"
-    ]
+    ],
+    "thumb": "thumbs/flow-element-size-outliers.png"
   },
   {
     "slug": "flow-storey-stacking",
@@ -423,7 +437,8 @@
       "classes",
       "stacked",
       "flow-graph"
-    ]
+    ],
+    "thumb": "thumbs/flow-storey-stacking.png"
   },
   {
     "slug": "flow-carbon-by-material",
@@ -447,7 +462,8 @@
       "material",
       "sustainability",
       "flow-graph"
-    ]
+    ],
+    "thumb": "thumbs/flow-carbon-by-material.png"
   },
   {
     "slug": "embodied-carbon-storey",
@@ -492,7 +508,8 @@
       "heatmap",
       "3d",
       "storey"
-    ]
+    ],
+    "thumb": "thumbs/embodied-carbon-storey.png"
   },
   {
     "slug": "flow-facade-orientation",
@@ -516,7 +533,8 @@
       "polar",
       "envelope",
       "flow-graph"
-    ]
+    ],
+    "thumb": "thumbs/flow-facade-orientation.png"
   },
   {
     "slug": "rooms-by-storey-area",
@@ -543,7 +561,8 @@
       "area",
       "storey",
       "rooms"
-    ]
+    ],
+    "thumb": "thumbs/rooms-by-storey-area.png"
   },
   {
     "slug": "flow-parameter-completeness",
@@ -568,7 +587,8 @@
       "heatmap",
       "qa",
       "flow-graph"
-    ]
+    ],
+    "thumb": "thumbs/flow-parameter-completeness.png"
   },
   {
     "slug": "installed-vs-planned",
@@ -603,7 +623,8 @@
       "s-curve",
       "3d",
       "site"
-    ]
+    ],
+    "thumb": "thumbs/installed-vs-planned.png"
   },
   {
     "slug": "parameter-completeness",
@@ -631,7 +652,8 @@
       "parameters",
       "heatmap",
       "handover"
-    ]
+    ],
+    "thumb": "thumbs/parameter-completeness.png"
   },
   {
     "slug": "flow-progress-s-curve",
@@ -654,7 +676,8 @@
       "progress",
       "s-curve",
       "flow-graph"
-    ]
+    ],
+    "thumb": "thumbs/flow-progress-s-curve.png"
   },
   {
     "slug": "room-adjacency-network",
@@ -688,7 +711,8 @@
       "network",
       "floor-plan",
       "space-planning"
-    ]
+    ],
+    "thumb": "thumbs/room-adjacency-network.png"
   },
   {
     "slug": "flow-room-areas",
@@ -712,7 +736,8 @@
       "histogram",
       "space",
       "flow-graph"
-    ]
+    ],
+    "thumb": "thumbs/flow-room-areas.png"
   },
   {
     "slug": "room-area-plan",
@@ -745,7 +770,8 @@
       "heatmap",
       "area",
       "rooms"
-    ]
+    ],
+    "thumb": "thumbs/room-area-plan.png"
   },
   {
     "slug": "room-temperature",
@@ -785,7 +811,8 @@
       "heatmap",
       "floor-plan",
       "facilities"
-    ]
+    ],
+    "thumb": "thumbs/room-temperature.png"
   },
   {
     "slug": "site-map",
@@ -824,7 +851,8 @@
       "site",
       "portfolio",
       "geojson"
-    ]
+    ],
+    "thumb": "thumbs/site-map.png"
   },
   {
     "slug": "storeys-in-3d",
@@ -858,7 +886,8 @@
       "storey",
       "explode",
       "coordination"
-    ]
+    ],
+    "thumb": "thumbs/storeys-in-3d.png"
   },
   {
     "slug": "travel-distance-heatmap",
@@ -888,7 +917,8 @@
       "heatmap",
       "floor-plan",
       "fire"
-    ]
+    ],
+    "thumb": "thumbs/travel-distance-heatmap.png"
   },
   {
     "slug": "model-diff-federated",
@@ -921,7 +951,8 @@
       "model-diff",
       "classes",
       "model-quality"
-    ]
+    ],
+    "thumb": "thumbs/model-diff-federated.png"
   },
   {
     "slug": "flow-model-composition",
@@ -944,7 +975,8 @@
       "classes",
       "overview",
       "flow-graph"
-    ]
+    ],
+    "thumb": "thumbs/flow-model-composition.png"
   },
   {
     "slug": "window-orientation",
@@ -977,7 +1009,8 @@
       "orientation",
       "energy",
       "facade"
-    ]
+    ],
+    "thumb": "thumbs/window-orientation.png"
   },
   {
     "slug": "flow-window-to-wall-ratio",
@@ -1001,6 +1034,7 @@
       "wwr",
       "envelope",
       "flow-graph"
-    ]
+    ],
+    "thumb": "thumbs/flow-window-to-wall-ratio.png"
   }
 ]

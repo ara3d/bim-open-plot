@@ -12,7 +12,8 @@
     "typecheck": "tsc --noEmit -p packages/demos/tsconfig.json",
     "demos": "vite packages/demos --host 127.0.0.1 --port 5320 --strictPort",
     "demos:build": "vite build packages/demos",
-    "demos:index": "node packages/demos/scripts/index.mjs"
+    "demos:index": "node packages/demos/scripts/index.mjs",
+    "demos:thumbs": "node packages/demos/scripts/thumbs.mjs"
   },
   "devDependencies": {
     "@types/node": "^22.20.1",
